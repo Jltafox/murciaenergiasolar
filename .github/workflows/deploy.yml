@@ -1,0 +1,24 @@
+name: Despliegue Automático Murcia Energia Solar
+
+on:
+  push:
+    branches:
+      - main  # Asegúrate de que tu rama se llama main, si es master cámbialo aquí
+
+jobs:
+  web-deploy:
+    name: Subiendo archivos a Raiola
+    runs-on: ubuntu-latest
+    steps:
+    - name: 🚚 Descargando código desde GitHub
+      uses: actions/checkout@v3
+
+    - name: 📂 Sincronizando con el servidor via FTP
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+      with:
+        server: ${{ secrets.FTP_SERVER }}
+        username: ${{ secrets.FTP_USERNAME }}
+        password: ${{ secrets.FTP_PASSWORD }}
+        server-dir: ./public_html/
+        dangerous-clean-slate: false
+        protocol: ftp
