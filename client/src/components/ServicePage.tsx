@@ -37,9 +37,11 @@ import {
   Users,
   Award,
   Wrench,
+  Loader2,
 } from "lucide-react";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
+import { sendContactForm } from "../lib/contactService";
 
 // ── Types ──────────────────────────────────────────────────────────────────
 
@@ -256,6 +258,28 @@ export default function ServicePage(props: ServicePageProps) {
   }, [props.slug]);
 
   // Render H1 with optional accent
+  const [formData, setFormData] = useState({
+    nombre: "",
+    telefono: "",
+    tipo: "",
+    factura: "",
+  });
+  const [isSubmitting, setIsSubmitting] = useState(false);
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setIsSubmitting(true);
+    const result = await sendContactForm(formData);
+    setIsSubmitting(false);
+
+    if (result.success) {
+      alert("¡Gracias! Hemos recibido tu solicitud. Te contactaremos en breve.");
+      setFormData({ nombre: "", telefono: "", tipo: "", factura: "" });
+    } else {
+      alert("Error al enviar el formulario. Por favor, inténtelo de nuevo o llámenos directamente.");
+    }
+  };
+
   const renderH1 = () => {
     if (!h1Accent) return <>{h1}</>;
     const parts = h1.split(h1Accent);
@@ -450,42 +474,69 @@ export default function ServicePage(props: ServicePageProps) {
           <p className="text-white/60 text-sm mb-8">{ctaSubtitle}</p>
           <form
             className="bg-white rounded-2xl p-6 md:p-8 text-left shadow-2xl"
-            onSubmit={(e) => { e.preventDefault(); window.location.href = phoneUrl; }}
+            onSubmit={handleSubmit}
           >
             <div className="grid md:grid-cols-2 gap-4 mb-4">
               <div>
                 <label className="block text-xs font-semibold text-[#1B3A5C] mb-1">Nombre *</label>
-                <input type="text" required placeholder="Tu nombre" className="w-full border border-[#1B3A5C]/20 rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-[#E8650A] transition-colors" />
+                <input
+                  type="text"
+                  required
+                  placeholder="Tu nombre"
+                  className="w-full border border-[#1B3A5C]/20 rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-[#E8650A] transition-colors"
+                  value={formData.nombre}
+                  onChange={(e) => setFormData({...formData, nombre: e.target.value})}
+                />
               </div>
               <div>
                 <label className="block text-xs font-semibold text-[#1B3A5C] mb-1">Teléfono *</label>
-                <input type="tel" required placeholder="6XX XXX XXX" className="w-full border border-[#1B3A5C]/20 rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-[#E8650A] transition-colors" />
+                <input
+                  type="tel"
+                  required
+                  placeholder="6XX XXX XXX"
+                  className="w-full border border-[#1B3A5C]/20 rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-[#E8650A] transition-colors"
+                  value={formData.telefono}
+                  onChange={(e) => setFormData({...formData, telefono: e.target.value})}
+                />
               </div>
             </div>
             <div className="mb-4">
               <label className="block text-xs font-semibold text-[#1B3A5C] mb-1">Tipo de propiedad</label>
-              <select className="w-full border border-[#1B3A5C]/20 rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-[#E8650A] transition-colors text-[#1B3A5C]">
+              <select
+                className="w-full border border-[#1B3A5C]/20 rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-[#E8650A] transition-colors text-[#1B3A5C]"
+                value={formData.tipo}
+                onChange={(e) => setFormData({...formData, tipo: e.target.value})}
+              >
                 <option value="">Selecciona una opción</option>
-                <option>Vivienda unifamiliar / Chalet</option>
-                <option>Piso / Apartamento</option>
-                <option>Comunidad de vecinos</option>
-                <option>Local / Empresa / Nave industrial</option>
-                <option>Explotación agrícola</option>
+                <option value="Vivienda unifamiliar / Chalet">Vivienda unifamiliar / Chalet</option>
+                <option value="Piso / Apartamento">Piso / Apartamento</option>
+                <option value="Comunidad de vecinos">Comunidad de vecinos</option>
+                <option value="Local / Empresa / Nave industrial">Local / Empresa / Nave industrial</option>
+                <option value="Explotación agrícola">Explotación agrícola</option>
               </select>
             </div>
             <div className="mb-6">
               <label className="block text-xs font-semibold text-[#1B3A5C] mb-1">Factura mensual aproximada</label>
-              <select className="w-full border border-[#1B3A5C]/20 rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-[#E8650A] transition-colors text-[#1B3A5C]">
+              <select
+                className="w-full border border-[#1B3A5C]/20 rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-[#E8650A] transition-colors text-[#1B3A5C]"
+                value={formData.factura}
+                onChange={(e) => setFormData({...formData, factura: e.target.value})}
+              >
                 <option value="">Selecciona un rango</option>
-                <option>Menos de 60€/mes</option>
-                <option>60€ – 100€/mes</option>
-                <option>100€ – 150€/mes</option>
-                <option>150€ – 250€/mes</option>
-                <option>Más de 250€/mes</option>
+                <option value="Menos de 60€/mes">Menos de 60€/mes</option>
+                <option value="60€ – 100€/mes">60€ – 100€/mes</option>
+                <option value="100€ – 150€/mes">100€ – 150€/mes</option>
+                <option value="150€ – 250€/mes">150€ – 250€/mes</option>
+                <option value="Más de 250€/mes">Más de 250€/mes</option>
               </select>
             </div>
-            <button type="submit" className="w-full bg-[#E8650A] hover:bg-[#D4580A] text-white font-bold py-3.5 rounded-xl transition-colors flex items-center justify-center gap-2 shadow-lg shadow-[#E8650A]/30">
-              <Sun className="w-5 h-5" />Solicitar presupuesto gratuito
+            <button
+              type="submit"
+              className="w-full bg-[#E8650A] hover:bg-[#D4580A] text-white font-bold py-3.5 rounded-xl transition-colors flex items-center justify-center gap-2 shadow-lg shadow-[#E8650A]/30"
+              disabled={isSubmitting}
+            >
+              {isSubmitting ? <Loader2 className="w-5 h-5 animate-spin" /> : <Sun className="w-5 h-5" />}
+              {isSubmitting ? "Enviando..." : "Solicitar presupuesto gratuito"}
             </button>
             <p className="text-center text-xs text-[#1B3A5C]/40 mt-3">
               O llama directamente:{" "}

@@ -25,8 +25,9 @@ import {
   Sun, Phone, Mail, MapPin, CheckCircle, Star, ChevronDown,
   ArrowRight, Zap, Home as HomeIcon, Building2, Factory as FactoryIcon, Thermometer,
   Shield, Award, Clock, Users, Euro, TrendingDown, Leaf,
-  MessageCircle, Menu, X, Calculator, ChevronRight
+  MessageCircle, Menu, X, Calculator, ChevronRight, Loader2
 } from "lucide-react";
+import { sendContactForm } from "../lib/contactService";
 
 // ─── Image URLs (WebP optimizado, CDN permanente) ────────────────────────────
 // hero: 290KB WebP vs 7MB JPG original (96% reducción)
@@ -319,10 +320,19 @@ function HeroSection() {
     municipio: "",
   });
   const [submitted, setSubmitted] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    setSubmitted(true);
+    setIsSubmitting(true);
+    const result = await sendContactForm(formData);
+    setIsSubmitting(false);
+
+    if (result.success) {
+      setSubmitted(true);
+    } else {
+      alert("Error al enviar el formulario. Por favor, inténtelo de nuevo o llámenos directamente.");
+    }
   };
 
   return (
@@ -486,9 +496,17 @@ function HeroSection() {
                         <option value="otro">Otro municipio</option>
                       </select>
                     </div>
-                    <button type="submit" className="btn-solar w-full justify-center text-base py-3.5 mt-1">
-                      <Sun className="w-5 h-5" />
-                      Solicitar Estudio Gratuito
+                    <button
+                      type="submit"
+                      className="btn-solar w-full justify-center text-base py-3.5 mt-1"
+                      disabled={isSubmitting}
+                    >
+                      {isSubmitting ? (
+                        <Loader2 className="w-5 h-5 animate-spin" />
+                      ) : (
+                        <Sun className="w-5 h-5" />
+                      )}
+                      {isSubmitting ? "Enviando..." : "Solicitar Estudio Gratuito"}
                     </button>
                   </form>
 
