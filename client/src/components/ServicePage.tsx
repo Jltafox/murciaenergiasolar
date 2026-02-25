@@ -450,21 +450,54 @@ export default function ServicePage(props: ServicePageProps) {
           <p className="text-white/60 text-sm mb-8">{ctaSubtitle}</p>
           <form
             className="bg-white rounded-2xl p-6 md:p-8 text-left shadow-2xl"
-            onSubmit={(e) => { e.preventDefault(); window.location.href = phoneUrl; }}
+            onSubmit={(e) => {
+              e.preventDefault();
+              const formData = new FormData(e.currentTarget);
+              const nombre = formData.get("nombre");
+              const telefono = formData.get("telefono");
+              const tipo = formData.get("tipo_propiedad");
+              const factura = formData.get("factura_mensual");
+
+              const subject = encodeURIComponent(
+                `Nuevo contacto web (Service): ${nombre}`,
+              );
+              const body = encodeURIComponent(`
+Nombre: ${nombre}
+Teléfono: ${telefono}
+Tipo Propiedad: ${tipo}
+Factura Mensual: ${factura}
+              `);
+              window.location.href = `mailto:info@murciaenergiasolar.es?subject=${subject}&body=${body}`;
+            }}
           >
             <div className="grid md:grid-cols-2 gap-4 mb-4">
               <div>
                 <label className="block text-xs font-semibold text-[#1B3A5C] mb-1">Nombre *</label>
-                <input type="text" required placeholder="Tu nombre" className="w-full border border-[#1B3A5C]/20 rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-[#E8650A] transition-colors" />
+                <input
+                  type="text"
+                  name="nombre"
+                  required
+                  placeholder="Tu nombre"
+                  className="w-full border border-[#1B3A5C]/20 rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-[#E8650A] transition-colors"
+                />
               </div>
               <div>
                 <label className="block text-xs font-semibold text-[#1B3A5C] mb-1">Teléfono *</label>
-                <input type="tel" required placeholder="6XX XXX XXX" className="w-full border border-[#1B3A5C]/20 rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-[#E8650A] transition-colors" />
+                <input
+                  type="tel"
+                  name="telefono"
+                  required
+                  placeholder="6XX XXX XXX"
+                  className="w-full border border-[#1B3A5C]/20 rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-[#E8650A] transition-colors"
+                />
               </div>
             </div>
             <div className="mb-4">
               <label className="block text-xs font-semibold text-[#1B3A5C] mb-1">Tipo de propiedad</label>
-              <select className="w-full border border-[#1B3A5C]/20 rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-[#E8650A] transition-colors text-[#1B3A5C]">
+              <select
+                name="tipo_propiedad"
+                className="w-full border border-[#1B3A5C]/20 rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-[#E8650A] transition-colors text-[#1B3A5C]"
+              >
                 <option value="">Selecciona una opción</option>
                 <option>Vivienda unifamiliar / Chalet</option>
                 <option>Piso / Apartamento</option>
@@ -475,7 +508,10 @@ export default function ServicePage(props: ServicePageProps) {
             </div>
             <div className="mb-6">
               <label className="block text-xs font-semibold text-[#1B3A5C] mb-1">Factura mensual aproximada</label>
-              <select className="w-full border border-[#1B3A5C]/20 rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-[#E8650A] transition-colors text-[#1B3A5C]">
+              <select
+                name="factura_mensual"
+                className="w-full border border-[#1B3A5C]/20 rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-[#E8650A] transition-colors text-[#1B3A5C]"
+              >
                 <option value="">Selecciona un rango</option>
                 <option>Menos de 60€/mes</option>
                 <option>60€ – 100€/mes</option>

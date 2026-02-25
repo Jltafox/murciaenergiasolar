@@ -322,6 +322,17 @@ function HeroSection() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+
+    const subject = encodeURIComponent(`Nuevo contacto web: ${formData.nombre}`);
+    const body = encodeURIComponent(`
+Nombre: ${formData.nombre}
+Teléfono: ${formData.telefono}
+Tipo: ${formData.tipo}
+Municipio: ${formData.municipio}
+    `);
+
+    window.location.href = `mailto:info@murciaenergiasolar.es?subject=${subject}&body=${body}`;
+
     setSubmitted(true);
   };
 
