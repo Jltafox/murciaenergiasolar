@@ -3,6 +3,7 @@ import { createServer } from "http";
 import path from "path";
 import { fileURLToPath } from "url";
 import nodemailer from "nodemailer";
+import "dotenv/config";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -34,6 +35,9 @@ async function startServer() {
   // Email sending endpoint
   app.post("/api/contact", async (req, res) => {
     try {
+      console.log("Processing contact form submission");
+      console.log("SMTP Password configured:", !!process.env.SMTP_PASS);
+
       const { nombre, telefono, tipo, municipio, factura } = req.body;
 
       // Validate required fields
@@ -78,10 +82,11 @@ async function startServer() {
       // Send email
       await transporter.sendMail(mailOptions);
 
+      console.log("Email sent successfully to info@murciaenergiasolar.es");
       res.status(200).json({ message: "Formulario enviado correctamente" });
-    } catch (error) {
+    } catch (error: any) {
       console.error("Error sending email:", error);
-      res.status(500).json({ error: "Error al enviar el formulario" });
+      res.status(500).json({ error: "Error al enviar el formulario: " + (error.message || String(error)) });
     }
   });
 

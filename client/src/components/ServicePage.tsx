@@ -276,7 +276,7 @@ export default function ServicePage(props: ServicePageProps) {
       alert("¡Gracias! Hemos recibido tu solicitud. Te contactaremos en breve.");
       setFormData({ nombre: "", telefono: "", tipo: "", factura: "" });
     } else {
-      alert("Error al enviar el formulario. Por favor, inténtelo de nuevo o llámenos directamente.");
+      alert(result.message || "Error al enviar el formulario. Por favor, inténtelo de nuevo o llámenos directamente.");
     }
   };
 

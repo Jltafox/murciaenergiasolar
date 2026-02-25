@@ -331,7 +331,7 @@ function HeroSection() {
     if (result.success) {
       setSubmitted(true);
     } else {
-      alert("Error al enviar el formulario. Por favor, inténtelo de nuevo o llámenos directamente.");
+      alert(result.message || "Error al enviar el formulario. Por favor, inténtelo de nuevo o llámenos directamente.");
     }
   };
 
