@@ -1,0 +1,431 @@
+/*
+ * MURCIA ENERGÍA SOLAR — Design System
+ * Philosophy: "Claridad Solar Mediterránea"
+ * Design Movement: Modernismo Mediterráneo Limpio
+ * 
+ * Core Principles:
+ * 1. Claridad radical — cada elemento tiene un propósito de conversión
+ * 2. Calidez solar — paleta evoca el sol de Murcia sin clichés
+ * 3. Confianza técnica — datos reales, certificaciones visibles
+ * 4. Velocidad de decisión — presupuesto en menos de 3 scrolls
+ *
+ * Color Philosophy:
+ * - Naranja solar cálido #E8650A → acción y conversión
+ * - Azul cielo profundo #1B3A5C → confianza y autoridad
+ * - Blanco puro #FFFFFF + Gris arena #F8F6F2 → fondos
+ *
+ * Typography: Sora (headlines) + Inter (body)
+ */
+
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+}
+
+:root {
+  --radius: 0.5rem;
+
+  /* Brand Colors */
+  --solar-orange: oklch(0.60 0.19 42);       /* #E8650A — naranja solar */
+  --solar-orange-light: oklch(0.72 0.16 42); /* #F5874A — naranja claro */
+  --solar-orange-dark: oklch(0.48 0.18 42);  /* #B84E08 — naranja oscuro */
+  --sky-blue: oklch(0.28 0.07 245);          /* #1B3A5C — azul cielo profundo */
+  --sky-blue-light: oklch(0.40 0.08 245);    /* #2A5580 — azul medio */
+  --sky-blue-dark: oklch(0.18 0.06 245);     /* #0F2238 — azul muy oscuro */
+  --sand: oklch(0.98 0.005 80);              /* #F8F6F2 — gris arena */
+  --sand-dark: oklch(0.93 0.01 80);          /* #EDE9E1 — arena oscuro */
+
+  /* Semantic Tokens */
+  --background: oklch(1 0 0);
+  --foreground: oklch(0.18 0.04 250);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.18 0.04 250);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.18 0.04 250);
+  --primary: oklch(0.60 0.19 42);
+  --primary-foreground: oklch(1 0 0);
+  --secondary: oklch(0.28 0.07 245);
+  --secondary-foreground: oklch(1 0 0);
+  --muted: oklch(0.96 0.005 80);
+  --muted-foreground: oklch(0.52 0.02 250);
+  --accent: oklch(0.96 0.005 80);
+  --accent-foreground: oklch(0.28 0.07 245);
+  --destructive: oklch(0.577 0.245 27.325);
+  --destructive-foreground: oklch(0.985 0 0);
+  --border: oklch(0.90 0.008 80);
+  --input: oklch(0.90 0.008 80);
+  --ring: oklch(0.60 0.19 42);
+  --chart-1: oklch(0.60 0.19 42);
+  --chart-2: oklch(0.28 0.07 245);
+  --chart-3: oklch(0.72 0.16 42);
+  --chart-4: oklch(0.40 0.08 245);
+  --chart-5: oklch(0.48 0.18 42);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Inter', sans-serif;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Sora', sans-serif;
+  }
+  button:not(:disabled),
+  [role="button"]:not([aria-disabled="true"]),
+  [type="button"]:not(:disabled),
+  [type="submit"]:not(:disabled),
+  a[href],
+  select:not(:disabled),
+  input[type="checkbox"]:not(:disabled),
+  input[type="radio"]:not(:disabled) {
+    @apply cursor-pointer;
+  }
+}
+
+@layer components {
+  .container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .flex {
+    min-height: 0;
+    min-width: 0;
+  }
+
+  @media (min-width: 640px) {
+    .container {
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .container {
+      padding-left: 2rem;
+      padding-right: 2rem;
+      max-width: 1280px;
+    }
+  }
+
+  /* Solar brand utilities */
+  .btn-solar {
+    background-color: oklch(0.60 0.19 42);
+    color: white;
+    font-family: 'Sora', sans-serif;
+    font-weight: 600;
+    padding: 0.875rem 2rem;
+    border-radius: 0.375rem;
+    transition: all 0.2s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    line-height: 1.25;
+  }
+  .btn-solar:hover {
+    background-color: oklch(0.48 0.18 42);
+    transform: translateY(-1px);
+    box-shadow: 0 8px 24px oklch(0.60 0.19 42 / 0.35);
+  }
+  .btn-solar:active {
+    transform: translateY(0);
+  }
+
+  .btn-outline-solar {
+    background-color: transparent;
+    color: oklch(0.60 0.19 42);
+    font-family: 'Sora', sans-serif;
+    font-weight: 600;
+    padding: 0.875rem 2rem;
+    border-radius: 0.375rem;
+    border: 2px solid oklch(0.60 0.19 42);
+    transition: all 0.2s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+    font-size: 1rem;
+    line-height: 1.25;
+  }
+  .btn-outline-solar:hover {
+    background-color: oklch(0.60 0.19 42);
+    color: white;
+  }
+
+  .section-title {
+    font-family: 'Sora', sans-serif;
+    font-weight: 700;
+    color: oklch(0.18 0.04 250);
+    line-height: 1.15;
+  }
+
+  .section-subtitle {
+    font-family: 'Inter', sans-serif;
+    color: oklch(0.52 0.02 250);
+    line-height: 1.6;
+  }
+
+  .card-solar {
+    background: white;
+    border-radius: 0.75rem;
+    border: 1px solid oklch(0.90 0.008 80);
+    padding: 1.5rem;
+    transition: all 0.25s ease;
+    box-shadow: 0 1px 3px oklch(0 0 0 / 0.06);
+  }
+  .card-solar:hover {
+    box-shadow: 0 8px 32px oklch(0 0 0 / 0.10);
+    transform: translateY(-3px);
+    border-color: oklch(0.60 0.19 42 / 0.3);
+  }
+
+  .badge-solar {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.375rem;
+    background-color: oklch(0.60 0.19 42 / 0.10);
+    color: oklch(0.48 0.18 42);
+    font-family: 'Sora', sans-serif;
+    font-weight: 600;
+    font-size: 0.75rem;
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+
+  .stat-number {
+    font-family: 'Sora', sans-serif;
+    font-weight: 800;
+    color: oklch(0.60 0.19 42);
+    line-height: 1;
+  }
+
+  /* Diagonal section divider */
+  .diagonal-bottom {
+    clip-path: polygon(0 0, 100% 0, 100% 88%, 0 100%);
+    padding-bottom: 8rem;
+    margin-bottom: -4rem;
+  }
+
+  .diagonal-top {
+    clip-path: polygon(0 6%, 100% 0, 100% 100%, 0 100%);
+    padding-top: 8rem;
+    margin-top: -4rem;
+  }
+
+  /* Animated counter */
+  @keyframes countUp {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .count-animate {
+    animation: countUp 0.6s ease forwards;
+  }
+
+  /* WhatsApp button */
+  .whatsapp-btn {
+    position: fixed;
+    bottom: 1.5rem;
+    right: 1.5rem;
+    z-index: 50;
+    background-color: #25D366;
+    color: white;
+    border-radius: 9999px;
+    width: 3.5rem;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 20px rgba(37, 211, 102, 0.4);
+    transition: all 0.2s ease;
+    cursor: pointer;
+    border: none;
+  }
+  .whatsapp-btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 28px rgba(37, 211, 102, 0.5);
+  }
+
+  /* Phone CTA sticky bar */
+  .sticky-cta {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 40;
+    background: oklch(0.28 0.07 245);
+    color: white;
+    padding: 0.875rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 -4px 20px oklch(0 0 0 / 0.15);
+  }
+
+  /* Form styles */
+  .form-solar input,
+  .form-solar select,
+  .form-solar textarea {
+    width: 100%;
+    padding: 0.875rem 1rem;
+    border: 1.5px solid oklch(0.90 0.008 80);
+    border-radius: 0.5rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9375rem;
+    color: oklch(0.18 0.04 250);
+    background: white;
+    transition: border-color 0.2s ease;
+    outline: none;
+  }
+  .form-solar input:focus,
+  .form-solar select:focus,
+  .form-solar textarea:focus {
+    border-color: oklch(0.60 0.19 42);
+    box-shadow: 0 0 0 3px oklch(0.60 0.19 42 / 0.12);
+  }
+  .form-solar label {
+    display: block;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 0.875rem;
+    color: oklch(0.28 0.07 245);
+    margin-bottom: 0.375rem;
+  }
+
+  /* Trust badges */
+  .trust-badge {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.875rem;
+    color: oklch(0.52 0.02 250);
+  }
+  .trust-badge svg {
+    color: oklch(0.60 0.19 42);
+    flex-shrink: 0;
+  }
+
+  /* Review stars */
+  .stars {
+    color: #F59E0B;
+    display: flex;
+    gap: 0.125rem;
+  }
+
+  /* ═══ WPO / CLS FIXES ═══════════════════════════════════════════════════ */
+
+  /* Reserva de espacio para el hero — evita CLS mientras carga React/imagen */
+  .hero-section {
+    min-height: 100svh;
+    contain: layout style;
+  }
+
+  /* Reserva de espacio para el navbar fijo — evita CLS al hacer scroll */
+  .navbar-spacer {
+    height: 72px;
+    flex-shrink: 0;
+  }
+
+  /* Imágenes: aspect-ratio explícito para evitar reflow al cargar */
+  .img-hero {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .img-testimonial {
+    aspect-ratio: 1 / 1;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 9999px;
+    object-fit: cover;
+    flex-shrink: 0;
+  }
+
+  /* Reducir will-change a solo los elementos que realmente animan */
+  .animate-on-scroll {
+    will-change: transform, opacity;
+  }
+
+  /* Evitar layout shift en sticky CTA móvil */
+  .sticky-cta-mobile {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 72px; /* altura fija para evitar reflow */
+    z-index: 40;
+  }
+
+  /* Skeleton loader para imágenes mientras cargan */
+  .img-skeleton {
+    background: linear-gradient(90deg, oklch(0.93 0.01 80) 25%, oklch(0.96 0.005 80) 50%, oklch(0.93 0.01 80) 75%);
+    background-size: 200% 100%;
+    animation: shimmer 1.5s infinite;
+  }
+  @keyframes shimmer {
+    0% { background-position: 200% 0; }
+    100% { background-position: -200% 0; }
+  }
+
+  /* Accesibilidad: focus visible mejorado para teclado */
+  :focus-visible {
+    outline: 2px solid oklch(0.60 0.19 42);
+    outline-offset: 3px;
+    border-radius: 4px;
+  }
+
+  /* Reducir motion para usuarios con preferencia de movimiento reducido */
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
