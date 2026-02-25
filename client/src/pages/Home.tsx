@@ -315,6 +315,7 @@ function Navbar() {
 function HeroSection() {
   const [formData, setFormData] = useState({
     nombre: "",
+    email: "",
     telefono: "",
     tipo: "",
     municipio: "",
@@ -444,6 +445,18 @@ function HeroSection() {
                         onChange={(e) => setFormData({ ...formData, nombre: e.target.value })}
                         required
                         autoComplete="name"
+                      />
+                    </div>
+                    <div>
+                      <label htmlFor="hero-email">Tu email</label>
+                      <input
+                        id="hero-email"
+                        type="email"
+                        placeholder="Ej: carlos@email.com"
+                        value={formData.email}
+                        onChange={(e) => setFormData({ ...formData, email: e.target.value })}
+                        required
+                        autoComplete="email"
                       />
                     </div>
                     <div>

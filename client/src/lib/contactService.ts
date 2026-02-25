@@ -1,5 +1,6 @@
 export interface ContactFormData {
   nombre: string;
+  email: string;
   telefono: string;
   tipo?: string;
   municipio?: string;

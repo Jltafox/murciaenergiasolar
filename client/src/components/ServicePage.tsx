@@ -260,6 +260,7 @@ export default function ServicePage(props: ServicePageProps) {
   // Render H1 with optional accent
   const [formData, setFormData] = useState({
     nombre: "",
+    email: "",
     telefono: "",
     tipo: "",
     factura: "",
@@ -274,7 +275,7 @@ export default function ServicePage(props: ServicePageProps) {
 
     if (result.success) {
       alert("¡Gracias! Hemos recibido tu solicitud. Te contactaremos en breve.");
-      setFormData({ nombre: "", telefono: "", tipo: "", factura: "" });
+      setFormData({ nombre: "", email: "", telefono: "", tipo: "", factura: "" });
     } else {
       alert(result.message || "Error al enviar el formulario. Por favor, inténtelo de nuevo o llámenos directamente.");
     }
@@ -486,6 +487,17 @@ export default function ServicePage(props: ServicePageProps) {
                   className="w-full border border-[#1B3A5C]/20 rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-[#E8650A] transition-colors"
                   value={formData.nombre}
                   onChange={(e) => setFormData({...formData, nombre: e.target.value})}
+                />
+              </div>
+              <div>
+                <label className="block text-xs font-semibold text-[#1B3A5C] mb-1">Email *</label>
+                <input
+                  type="email"
+                  required
+                  placeholder="tu@email.com"
+                  className="w-full border border-[#1B3A5C]/20 rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-[#E8650A] transition-colors"
+                  value={formData.email}
+                  onChange={(e) => setFormData({...formData, email: e.target.value})}
                 />
               </div>
               <div>
