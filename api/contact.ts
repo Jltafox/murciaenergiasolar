@@ -36,13 +36,21 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     const safeFactura = factura ? escapeHtml(String(factura)) : "";
 
     // Create transporter
+    const smtpUser = process.env.SMTP_USER || "info@murciaenergiasolar.es";
+    const smtpPass = process.env.SMTP_PASS;
+
+    if (!smtpPass) {
+      console.error("SMTP_PASS is not defined");
+      return res.status(500).json({ error: "Configuration error: SMTP Password missing" });
+    }
+
     const transporter = nodemailer.createTransport({
       host: process.env.SMTP_HOST || "mail.murciaenergiasolar.es",
       port: parseInt(process.env.SMTP_PORT || "465"),
       secure: true, // true for 465, false for other ports
       auth: {
-        user: process.env.SMTP_USER || "info@murciaenergiasolar.es",
-        pass: process.env.SMTP_PASS,
+        user: smtpUser,
+        pass: smtpPass,
       },
     });
 
