@@ -5,6 +5,7 @@ import { Route, Switch } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import Home from "./pages/Home";
+import { useCanonical } from "./hooks/useCanonical";
 
 // Service Pages — 6 servicios principales
 import InstalacionResidencial from "./pages/services/InstalacionResidencial";
@@ -38,6 +39,8 @@ import Jumilla from "./pages/locations/Jumilla";
 import Cieza from "./pages/locations/Cieza";
 
 function Router() {
+  useCanonical();
+
   return (
     <Switch>
       {/* Home */}
