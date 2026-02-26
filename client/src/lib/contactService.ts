@@ -18,8 +18,15 @@ export const sendContactForm = async (data: ContactFormData): Promise<{ success:
     });
 
     if (!response.ok) {
-      const errorData = await response.json();
-      throw new Error(errorData.error || "Error al enviar el formulario");
+      const text = await response.text();
+      let errorMessage = "Error al enviar el formulario";
+      try {
+        const errorData = JSON.parse(text);
+        if (errorData.error) errorMessage = errorData.error;
+      } catch {
+        console.error("Failed to parse error response:", text);
+      }
+      throw new Error(errorMessage);
     }
 
     return { success: true };
