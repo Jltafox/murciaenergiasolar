@@ -9,7 +9,13 @@ export interface ContactFormData {
 
 export const sendContactForm = async (data: ContactFormData): Promise<{ success: boolean; message?: string }> => {
   try {
-    const response = await fetch("/api/contact", {
+    // Detect if we are in development (Vite) or production (Apache/PHP)
+    // For local dev, we might still want to use the Vercel API or a mock.
+    // Ideally, for the final build, this should point to contact.php.
+    // Since the build is for production Apache, we use /contact.php.
+    const endpoint = import.meta.env.DEV ? "/api/contact" : "/contact.php";
+
+    const response = await fetch(endpoint, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
