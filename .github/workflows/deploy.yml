@@ -1,24 +1,43 @@
-name: Despliegue Automático Murcia Energia Solar
+name: Despliegue Compilado Murcia Energia Solar
 
 on:
   push:
     branches:
-      - main  # Asegúrate de que tu rama se llama main, si es master cámbialo aquí
+      - main
 
 jobs:
   web-deploy:
-    name: Subiendo archivos a Raiola
+    name: Construir y Subir a Raiola
     runs-on: ubuntu-latest
     steps:
-    - name: 🚚 Descargando código desde GitHub
-      uses: actions/checkout@v3
+    - name: 🚚 Descargando código fuente
+      uses: actions/checkout@v4
 
-    - name: 📂 Sincronizando con el servidor via FTP
+    - name: 📦 Instalar pnpm
+      uses: pnpm/action-setup@v3
+      with:
+        version: 10
+
+    - name: 🟢 Configurar Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+        cache: 'pnpm'
+
+    - name: 📥 Instalar dependencias
+      run: pnpm install
+
+    - name: 🏗️ Compilar el proyecto (Vite + Node)
+      run: pnpm run build
+
+    - name: 📂 Sincronizar SOLO la carpeta dist via FTP
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
         server: ${{ secrets.FTP_SERVER }}
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
+        # Aquí está la magia: solo enviamos lo ya procesado
+        local-dir: ./dist/
         server-dir: ./
-        dangerous-clean-slate: false
         protocol: ftp
+        port: 21
