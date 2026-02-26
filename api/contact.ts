@@ -41,7 +41,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
 
     if (!smtpPass) {
       console.error("SMTP_PASS is not defined");
-      return res.status(500).json({ error: "Configuration error: SMTP Password missing" });
+      return res.status(500).json({ error: "Error de configuración: Falta la contraseña SMTP (SMTP_PASS) en el servidor." });
     }
 
     const transporter = nodemailer.createTransport({
