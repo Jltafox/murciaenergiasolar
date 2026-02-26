@@ -37,11 +37,13 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
 
     // Create transporter
     const smtpUser = process.env.SMTP_USER || "info@murciaenergiasolar.es";
-    const smtpPass = process.env.SMTP_PASS;
+    // Si la variable de entorno falla, puedes escribir la contraseña entre las comillas abajo:
+    const HARDCODED_PASSWORD = "";
+    const smtpPass = process.env.SMTP_PASS || HARDCODED_PASSWORD;
 
     if (!smtpPass) {
       console.error("SMTP_PASS is not defined");
-      return res.status(500).json({ error: "Error de configuración: Falta la contraseña SMTP (SMTP_PASS) en el servidor." });
+      return res.status(500).json({ error: "Error de configuración: Falta la contraseña SMTP (SMTP_PASS) en el servidor. Edita api/contact.ts y pon la contraseña en HARDCODED_PASSWORD si no puedes configurar las variables de entorno." });
     }
 
     const transporter = nodemailer.createTransport({
