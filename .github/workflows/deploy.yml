@@ -29,6 +29,16 @@ jobs:
 
     - name: 🏗️ Compilar el proyecto (Vite + Node)
       run: pnpm run build
+    - name: ⚙️ Crear .htaccess para el enrutador
+      run: |
+        echo "<IfModule mod_rewrite.c>" > dist/public/.htaccess
+        echo "  RewriteEngine On" >> dist/public/.htaccess
+        echo "  RewriteBase /" >> dist/public/.htaccess
+        echo "  RewriteRule ^index\.html$ - [L]" >> dist/public/.htaccess
+        echo "  RewriteCond %{REQUEST_FILENAME} !-f" >> dist/public/.htaccess
+        echo "  RewriteCond %{REQUEST_FILENAME} !-d" >> dist/public/.htaccess
+        echo "  RewriteRule . /index.html [L]" >> dist/public/.htaccess
+        echo "</IfModule>" >> dist/public/.htaccess
 
     - name: 📂 Sincronizar SOLO la carpeta dist via FTP
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
