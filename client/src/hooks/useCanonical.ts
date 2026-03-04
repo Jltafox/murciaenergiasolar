@@ -8,7 +8,7 @@ export function useCanonical() {
 
   useEffect(() => {
     // Determine the full canonical URL for the current path
-    const canonicalUrl = `${BASE_URL}${location === "/" ? "" : location}`;
+    const canonicalUrl = `${BASE_URL}${location}`;
 
     // Find the existing canonical tag
     let canonicalLink = document.querySelector('link[rel="canonical"]');
