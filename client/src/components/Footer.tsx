@@ -146,7 +146,7 @@ export default function Footer() {
             <ul className="flex flex-col gap-2">
               {subvenciones.map((s, i) => (
                 <li key={i}>
-                  <a href={s.href} className={linkCls} style={{ color: col, ...body }}>{s.label}</a>
+                  <span className="text-xs leading-relaxed" style={{ color: col, cursor: "default", ...body }}>{s.label}</span>
                 </li>
               ))}
             </ul>

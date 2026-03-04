@@ -1092,7 +1092,7 @@ function TestimonialsSection() {
       type: "Nave industrial · 50 kWp",
     },
     {
-      name: "Comunidad 8 Av. San Pedro del Pinatar 12",
+      name: "Comunidad Calle Mayor 12",
       location: "Murcia capital",
       rating: 5,
       text: "Somos 18 vecinos y todos ahorramos en la factura del ascensor y zonas comunes. El proceso fue muy sencillo gracias a su gestión. 100% recomendado.",
@@ -1522,7 +1522,7 @@ function Footer() {
             <ul className="flex flex-col gap-2">
               {subvenciones.map((s, i) => (
                 <li key={i}>
-                  <a href={s.href} className={linkCls} style={{ color: col, ...body }}>{s.label}</a>
+                  <span className="text-xs leading-relaxed" style={{ color: col, cursor: "default", ...body }}>{s.label}</span>
                 </li>
               ))}
             </ul>
