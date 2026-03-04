@@ -43,7 +43,7 @@ const faqsComunes = [
 
 export const laFlotaData: LocationPageProps = {
   metaTitle: "Placas Solares en La Flota, Murcia | Instalación Solar + Subvenciones 2025",
-  metaDescription: "Instalamos placas solares en La Flota (Murcia). Ahorra hasta 1.200€/año, bonificación IBI y deducción IRPF 20%. Presupuesto gratuito en 24h. ☎ 968 000 000",
+  metaDescription: "Instalamos placas solares en La Flota (Murcia). Ahorra hasta 1.200€/año, bonificación IBI y deducción IRPF 20%. Presupuesto gratuito en 24h. ☎ 868 35 36 92",
   slug: "la-flota",
   h1: "Instalación de Placas Solares en La Flota, Murcia",
   heroSubtitle: "Ahorra hasta 120€/mes desde el primer mes de instalación",
@@ -92,7 +92,7 @@ export const elCarmenData: LocationPageProps = {
 
 export const espinardoData: LocationPageProps = {
   metaTitle: "Placas Solares en Espinardo, Murcia | Instalación Solar Residencial e Industrial",
-  metaDescription: "Instalamos placas solares en Espinardo (Murcia). Zona universitaria y residencial con alto potencial solar. Presupuesto gratuito en 24h. ☎ 968 000 000",
+  metaDescription: "Instalamos placas solares en Espinardo (Murcia). Zona universitaria y residencial con alto potencial solar. Presupuesto gratuito en 24h. ☎ 868 35 36 92",
   slug: "espinardo",
   h1: "Instalación de Placas Solares en Espinardo, Murcia",
   heroSubtitle: "Energía solar para hogares, empresas y el Parque Científico",
@@ -191,7 +191,7 @@ export const elRaneroData: LocationPageProps = {
 
 export const vistabellaData: LocationPageProps = {
   metaTitle: "Placas Solares en Vistabella, Murcia | Instalación Solar + Subvenciones",
-  metaDescription: "Instalamos placas solares en Vistabella (Murcia). Urbanización con alto potencial solar. Ahorra hasta 1.200€/año. Presupuesto gratuito en 24h. ☎ 968 000 000",
+  metaDescription: "Instalamos placas solares en Vistabella (Murcia). Urbanización con alto potencial solar. Ahorra hasta 1.200€/año. Presupuesto gratuito en 24h. ☎ 868 35 36 92",
   slug: "vistabella",
   h1: "Placas Solares en Vistabella, Murcia",
   heroSubtitle: "La urbanización solar de referencia — máximo rendimiento en tejados modernos",
@@ -392,7 +392,7 @@ export const molinaDeSeguraData: LocationPageProps = {
 
 export const alcantarillaData: LocationPageProps = {
   metaTitle: "Placas Solares en Alcantarilla | Instalación Solar Residencial e Industrial 2025",
-  metaDescription: "Instalamos placas solares en Alcantarilla. Soluciones para viviendas y empresas del Polígono Industrial Oeste. Presupuesto gratuito en 24h. ☎ 968 000 000",
+  metaDescription: "Instalamos placas solares en Alcantarilla. Soluciones para viviendas y empresas del Polígono Industrial Oeste. Presupuesto gratuito en 24h. ☎ 868 35 36 92",
   slug: "alcantarilla",
   h1: "Instalación de Placas Solares en Alcantarilla",
   heroSubtitle: "Energía solar en el municipio más denso de España — autoconsumo individual y colectivo",
@@ -452,7 +452,7 @@ export const torrePachecoData: LocationPageProps = {
 
 export const sanJavierData: LocationPageProps = {
   metaTitle: "Placas Solares en San Javier | Instalación Solar Santiago de la Ribera · 2025",
-  metaDescription: "Instalamos placas solares en San Javier y Santiago de la Ribera. Chalets y apartamentos con alto potencial solar. Presupuesto gratuito en 24h. ☎ 968 000 000",
+  metaDescription: "Instalamos placas solares en San Javier y Santiago de la Ribera. Chalets y apartamentos con alto potencial solar. Presupuesto gratuito en 24h. ☎ 868 35 36 92",
   slug: "san-javier",
   h1: "Placas Solares en San Javier",
   heroSubtitle: "Energía solar en el Mar Menor — primera y segunda residencia con garantía de 25 años",

@@ -208,7 +208,7 @@ export const instalacionIndustrialData: ServicePageProps = {
 // ─── 3. Baterías de Almacenamiento ────────────────────────────────────────
 export const bateriasData: ServicePageProps = {
   metaTitle: "Baterías de Almacenamiento Solar en Murcia | Tesla Powerwall · Huawei · 2025",
-  metaDescription: "Instalamos baterías de almacenamiento solar en Murcia. Tesla Powerwall, Huawei LUNA y BYD. Factura cero de noche. Presupuesto gratuito en 24h. ☎ 968 000 000",
+  metaDescription: "Instalamos baterías de almacenamiento solar en Murcia. Tesla Powerwall, Huawei LUNA y BYD. Factura cero de noche. Presupuesto gratuito en 24h. ☎ 868 35 36 92",
   slug: "baterias-almacenamiento-solar",
   schema: {
     name: "Instalación de Baterías de Almacenamiento Solar",

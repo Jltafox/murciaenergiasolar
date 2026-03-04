@@ -221,12 +221,12 @@ function Navbar() {
         {/* CTA */}
         <div className="hidden md:flex items-center gap-3">
           <a
-            href="tel:+34968000000"
+            href="tel:+34868353692"
             className="flex items-center gap-2 text-sm font-semibold"
             style={{ fontFamily: "Sora, sans-serif", color: "oklch(0.28 0.07 245)" }}
           >
             <Phone className="w-4 h-4" />
-            968 000 000
+            868 35 36 92
           </a>
           <a href="#presupuesto" className="btn-solar text-sm py-2.5 px-5">
             Presupuesto Gratis
@@ -293,12 +293,12 @@ function Navbar() {
               <a href="/servicios/subvenciones-placas-solares" className="py-3 text-sm font-bold border-b border-gray-100" style={{ color: "oklch(0.18 0.04 250)", fontFamily: "Sora, sans-serif" }} onClick={() => setMenuOpen(false)}>Subvenciones</a>
 
               <a
-                href="tel:+34968000000"
+                href="tel:+34868353692"
                 className="flex items-center gap-2 py-3 text-sm font-semibold mt-2"
                 style={{ color: "oklch(0.60 0.19 42)", fontFamily: "Sora, sans-serif" }}
               >
                 <Phone className="w-4 h-4" />
-                Llamar: 968 000 000
+                Llamar: 868 35 36 92
               </a>
               <a href="#presupuesto" className="btn-solar text-center justify-center" onClick={() => setMenuOpen(false)}>
                 Solicitar Presupuesto Gratis
@@ -550,11 +550,11 @@ function HeroSection() {
                     Te llamaremos en menos de 24 horas con tu estudio solar personalizado y gratuito.
                   </p>
                   <a
-                    href="tel:+34968000000"
+                    href="tel:+34868353692"
                     className="btn-solar mt-5 w-full justify-center"
                   >
                     <Phone className="w-4 h-4" />
-                    O llámanos ahora: 968 000 000
+                    O llámanos ahora: 868 35 36 92
                   </a>
                 </motion.div>
               )}
@@ -1092,7 +1092,7 @@ function TestimonialsSection() {
       type: "Nave industrial · 50 kWp",
     },
     {
-      name: "Comunidad Calle Mayor 12",
+      name: "Comunidad 8 Av. San Pedro del Pinatar 12",
       location: "Murcia capital",
       rating: 5,
       text: "Somos 18 vecinos y todos ahorramos en la factura del ascensor y zonas comunes. El proceso fue muy sencillo gracias a su gestión. 100% recomendado.",
@@ -1347,12 +1347,12 @@ function FinalCTA() {
                 Solicitar estudio gratuito
               </a>
               <a
-                href="tel:+34968000000"
+                href="tel:+34868353692"
                 className="inline-flex items-center justify-center gap-2 px-7 py-4 rounded-lg font-bold text-base border-2 border-white text-white transition-all hover:bg-white/10"
                 style={{ fontFamily: "Sora, sans-serif" }}
               >
                 <Phone className="w-5 h-5" />
-                968 000 000
+                868 35 36 92
               </a>
             </div>
           </div>
@@ -1439,14 +1439,14 @@ function Footer() {
       <div className="border-b" style={{ borderColor: "oklch(1 0 0 / 0.06)", background: "oklch(0.13 0.04 250)" }}>
         <div className="container py-4 flex flex-wrap items-center justify-between gap-4">
           <div className="flex items-center gap-6 flex-wrap">
-            <a href="tel:+34968000000" className="flex items-center gap-2 text-sm font-semibold" style={{ color: "oklch(0.72 0.16 42)", ...body }}>
-              <Phone className="w-4 h-4" />968 000 000
+            <a href="tel:+34868353692" className="flex items-center gap-2 text-sm font-semibold" style={{ color: "oklch(0.72 0.16 42)", ...body }}>
+              <Phone className="w-4 h-4" />868 35 36 92
             </a>
             <a href="mailto:info@murciaenergiasolar.es" className="flex items-center gap-2 text-xs" style={{ color: col, ...body }}>
               <Mail className="w-3.5 h-3.5" />info@murciaenergiasolar.es
             </a>
             <div className="flex items-center gap-2 text-xs" style={{ color: col, ...body }}>
-              <MapPin className="w-3.5 h-3.5" />Calle Mayor 1, 30001 Murcia
+              <MapPin className="w-3.5 h-3.5" />8 Av. San Pedro del Pinatar, 30001 Murcia
             </div>
           </div>
           <div className="flex items-center gap-2 text-xs" style={{ color: col, ...body }}>
@@ -1558,7 +1558,7 @@ function Footer() {
           <div className="flex flex-wrap gap-x-4 gap-y-1 text-xs justify-center" style={{ color: "oklch(0.45 0.02 250)", ...body }}>
             <span>CIF: B-XXXXXXXX</span>
             <span>·</span>
-            <span>Calle Mayor 1, 30001 Murcia</span>
+            <span>8 Av. San Pedro del Pinatar, 30001 Murcia</span>
             <span>·</span>
             <a href="/aviso-legal/" className="hover:text-white transition-colors">Aviso Legal</a>
             <a href="/politica-privacidad/" className="hover:text-white transition-colors">Privacidad</a>
@@ -1574,7 +1574,7 @@ function Footer() {
 function WhatsAppButton() {
   return (
     <a
-      href="https://wa.me/34968000000?text=Hola,%20me%20interesa%20instalar%20placas%20solares%20en%20Murcia.%20¿Podéis%20hacerme%20un%20presupuesto%20gratuito?"
+      href="https://wa.me/34868353692?text=Hola,%20me%20interesa%20instalar%20placas%20solares%20en%20Murcia.%20¿Podéis%20hacerme%20un%20presupuesto%20gratuito?"
       target="_blank"
       rel="noopener noreferrer"
       className="whatsapp-btn"
@@ -1607,9 +1607,9 @@ function StickyMobileCTA() {
         >
           <div>
             <div className="text-xs font-semibold text-white/80" style={{ fontFamily: "Inter, sans-serif" }}>¿Tienes dudas?</div>
-            <a href="tel:+34968000000" className="text-base font-bold text-white flex items-center gap-1.5" style={{ fontFamily: "Sora, sans-serif" }}>
+            <a href="tel:+34868353692" className="text-base font-bold text-white flex items-center gap-1.5" style={{ fontFamily: "Sora, sans-serif" }}>
               <Phone className="w-4 h-4" />
-              968 000 000
+              868 35 36 92
             </a>
           </div>
           <a href="#presupuesto" className="btn-solar text-sm py-2.5 px-5">

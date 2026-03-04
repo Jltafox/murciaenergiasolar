@@ -137,9 +137,9 @@ export default function LocationPage(props: LocationPageProps) {
     landmarks,
   } = props;
 
-  const whatsappUrl = "https://wa.me/34968000000";
-  const phoneUrl = "tel:+34968000000";
-  const phoneDisplay = "968 000 000";
+  const whatsappUrl = "https://wa.me/34868353692";
+  const phoneUrl = "tel:+34868353692";
+  const phoneDisplay = "868 35 36 92";
 
   const [formData, setFormData] = useState({
     nombre: "",

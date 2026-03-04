@@ -148,12 +148,12 @@ export default function Navbar() {
         {/* CTA */}
         <div className="hidden md:flex items-center gap-3">
           <a
-            href="tel:+34968000000"
+            href="tel:+34868353692"
             className="flex items-center gap-2 text-sm font-semibold"
             style={{ fontFamily: "Sora, sans-serif", color: "oklch(0.28 0.07 245)" }}
           >
             <Phone className="w-4 h-4" />
-            968 000 000
+            868 35 36 92
           </a>
           <a href="/#presupuesto" className="btn-solar text-sm py-2.5 px-5">
             Presupuesto Gratis
@@ -221,12 +221,12 @@ export default function Navbar() {
               <a href="/servicios/subvenciones-placas-solares" className="py-3 text-sm font-bold border-b border-gray-100" style={{ color: "oklch(0.18 0.04 250)", fontFamily: "Sora, sans-serif" }} onClick={() => setMenuOpen(false)}>Subvenciones</a>
 
               <a
-                href="tel:+34968000000"
+                href="tel:+34868353692"
                 className="flex items-center gap-2 py-3 text-sm font-semibold mt-2"
                 style={{ color: "oklch(0.60 0.19 42)", fontFamily: "Sora, sans-serif" }}
               >
                 <Phone className="w-4 h-4" />
-                Llamar: 968 000 000
+                Llamar: 868 35 36 92
               </a>
               <a href="/#presupuesto" className="btn-solar text-center justify-center" onClick={() => setMenuOpen(false)}>
                 Solicitar Presupuesto Gratis

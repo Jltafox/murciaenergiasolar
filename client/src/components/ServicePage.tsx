@@ -202,9 +202,9 @@ export default function ServicePage(props: ServicePageProps) {
     schema,
   } = props;
 
-  const phoneUrl = "tel:+34968000000";
-  const phoneDisplay = "968 000 000";
-  const whatsappUrl = "https://wa.me/34968000000";
+  const phoneUrl = "tel:+34868353692";
+  const phoneDisplay = "868 35 36 92";
+  const whatsappUrl = "https://wa.me/34868353692";
 
   // Inject Schema JSON-LD
   useEffect(() => {
@@ -216,7 +216,7 @@ export default function ServicePage(props: ServicePageProps) {
       "provider": {
         "@type": "LocalBusiness",
         "name": schema.provider,
-        "telephone": "+34968000000",
+        "telephone": "+34868353692",
         "address": {
           "@type": "PostalAddress",
           "addressLocality": "Murcia",

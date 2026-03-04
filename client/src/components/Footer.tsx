@@ -63,14 +63,14 @@ export default function Footer() {
       <div className="border-b" style={{ borderColor: "oklch(1 0 0 / 0.06)", background: "oklch(0.13 0.04 250)" }}>
         <div className="container py-4 flex flex-wrap items-center justify-between gap-4">
           <div className="flex items-center gap-6 flex-wrap">
-            <a href="tel:+34968000000" className="flex items-center gap-2 text-sm font-semibold" style={{ color: "oklch(0.72 0.16 42)", ...body }}>
-              <Phone className="w-4 h-4" />968 000 000
+            <a href="tel:+34868353692" className="flex items-center gap-2 text-sm font-semibold" style={{ color: "oklch(0.72 0.16 42)", ...body }}>
+              <Phone className="w-4 h-4" />868 35 36 92
             </a>
             <a href="mailto:info@murciaenergiasolar.es" className="flex items-center gap-2 text-xs" style={{ color: col, ...body }}>
               <Mail className="w-3.5 h-3.5" />info@murciaenergiasolar.es
             </a>
             <div className="flex items-center gap-2 text-xs" style={{ color: col, ...body }}>
-              <MapPin className="w-3.5 h-3.5" />Calle Mayor 1, 30001 Murcia
+              <MapPin className="w-3.5 h-3.5" />8 Av. San Pedro del Pinatar, 30001 Murcia
             </div>
           </div>
           <div className="flex items-center gap-2 text-xs" style={{ color: col, ...body }}>
@@ -182,7 +182,7 @@ export default function Footer() {
           <div className="flex flex-wrap gap-x-4 gap-y-1 text-xs justify-center" style={{ color: "oklch(0.45 0.02 250)", ...body }}>
             <span>CIF: B-XXXXXXXX</span>
             <span>·</span>
-            <span>Calle Mayor 1, 30001 Murcia</span>
+            <span>8 Av. San Pedro del Pinatar, 30001 Murcia</span>
             <span>·</span>
             <a href="/aviso-legal/" className="hover:text-white transition-colors">Aviso Legal</a>
             <a href="/politica-privacidad/" className="hover:text-white transition-colors">Privacidad</a>
