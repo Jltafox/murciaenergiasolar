@@ -32,8 +32,8 @@ const incentivosIndustrial = [
 
 // ─── 1. Instalación Solar Residencial ─────────────────────────────────────
 export const instalacionResidencialData: ServicePageProps = {
-  metaTitle: "Instalación de Placas Solares Residencial en Murcia | Presupuesto Gratis 2025",
-  metaDescription: "Instalamos placas solares en viviendas de Murcia. Ahorra hasta 1.200€/año. Deducción IRPF 20%, bonificación IBI y subvenciones Next Generation. Presupuesto en 24h.",
+  metaTitle: "Instalación de Placas Solares para Casas en Murcia | Presupuesto 24h",
+  metaDescription: "Expertos en la instalación de placas solares para casas, chalets y unifamiliares en toda la Región de Murcia. Reduce tu factura de luz desde el primer día.",
   slug: "instalacion-solar-residencial",
   schema: {
     name: "Instalación de Placas Solares Residencial",
@@ -120,8 +120,8 @@ export const instalacionResidencialData: ServicePageProps = {
 
 // ─── 2. Instalación Solar Industrial ──────────────────────────────────────
 export const instalacionIndustrialData: ServicePageProps = {
-  metaTitle: "Instalación Solar Industrial en Murcia | Naves, Empresas y Polígonos 2025",
-  metaDescription: "Instalamos placas solares en naves industriales, empresas y polígonos de Murcia. Ahorra hasta el 80% de tu factura. Deducción IS 10%. Presupuesto gratuito en 24h.",
+  metaTitle: "Instalación de Placas Solares para Empresas en Murcia | Ahorro Energético",
+  metaDescription: "Especialistas en la instalación de placas solares para empresas y naves industriales en Murcia. Aumenta la rentabilidad de tu negocio y reduce costes.",
   slug: "instalacion-solar-industrial",
   schema: {
     name: "Instalación de Placas Solares Industrial",
@@ -207,8 +207,8 @@ export const instalacionIndustrialData: ServicePageProps = {
 
 // ─── 3. Baterías de Almacenamiento ────────────────────────────────────────
 export const bateriasData: ServicePageProps = {
-  metaTitle: "Baterías de Almacenamiento Solar en Murcia | Tesla Powerwall · Huawei · 2025",
-  metaDescription: "Instalamos baterías de almacenamiento solar en Murcia. Tesla Powerwall, Huawei LUNA y BYD. Factura cero de noche. Presupuesto gratuito en 24h. ☎ 868 35 36 92",
+  metaTitle: "Instalación de Baterías de Almacenamiento Solar en Murcia | Independencia",
+  metaDescription: "Instalación de baterías de almacenamiento para sistemas solares fotovoltaicos en Murcia. Guarda tu energía excedente y ahorra en tu factura de luz 24/7.",
   slug: "baterias-almacenamiento-solar",
   schema: {
     name: "Instalación de Baterías de Almacenamiento Solar",
@@ -299,8 +299,8 @@ export const bateriasData: ServicePageProps = {
 
 // ─── 4. Mantenimiento y Revisión ──────────────────────────────────────────
 export const mantenimientoData: ServicePageProps = {
-  metaTitle: "Mantenimiento de Placas Solares en Murcia | Revisión Anual · Limpieza · 2025",
-  metaDescription: "Servicio de mantenimiento y revisión de placas solares en Murcia. Limpieza, revisión eléctrica y termografía. Garantiza el máximo rendimiento. Presupuesto en 24h.",
+  metaTitle: "Mantenimiento y Revisión de Placas Solares en Murcia | Servicio Técnico",
+  metaDescription: "Asegura el máximo rendimiento de tu instalación con nuestro servicio de limpieza y mantenimiento de placas solares en Murcia. Pide presupuesto sin compromiso.",
   slug: "mantenimiento-placas-solares",
   schema: {
     name: "Mantenimiento y Revisión de Placas Solares",
@@ -391,8 +391,8 @@ export const mantenimientoData: ServicePageProps = {
 
 // ─── 5. Subvenciones y Tramitación ────────────────────────────────────────
 export const subvencionesData: ServicePageProps = {
-  metaTitle: "Subvenciones Placas Solares Murcia 2025 | IRPF 20% + IBI + Next Generation",
-  metaDescription: "Guía completa de subvenciones para placas solares en Murcia 2025. Deducción IRPF 20%, bonificación IBI, Next Generation EU. Tramitamos todo por ti. Gratis.",
+  metaTitle: "Subvenciones y Ayudas para Placas Solares en Murcia | Gestión Integral",
+  metaDescription: "Nos encargamos de gestionar el 100% de las subvenciones, ayudas y bonificaciones (IRPF, IBI) para tu instalación de placas solares en la Región de Murcia.",
   slug: "subvenciones-placas-solares",
   schema: {
     name: "Tramitación de Subvenciones para Placas Solares",
@@ -488,8 +488,8 @@ export const subvencionesData: ServicePageProps = {
 
 // ─── 6. Autoconsumo Colectivo ─────────────────────────────────────────────
 export const autoconsumoColetivoData: ServicePageProps = {
-  metaTitle: "Autoconsumo Colectivo en Murcia | Placas Solares para Comunidades de Vecinos",
-  metaDescription: "Instalamos sistemas de autoconsumo colectivo en comunidades de vecinos en Murcia. Ahorra en zonas comunes y en cada piso. Presupuesto gratuito en 24h.",
+  metaTitle: "Instalación de Placas Solares para Comunidades de Vecinos en Murcia",
+  metaDescription: "Reduce los gastos de las zonas comunes instalando placas solares para tu comunidad de propietarios en Murcia. Estudio de viabilidad gratuito para vecinos.",
   slug: "autoconsumo-colectivo",
   schema: {
     name: "Instalación de Autoconsumo Colectivo",

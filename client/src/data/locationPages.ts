@@ -42,8 +42,8 @@ const faqsComunes = [
 // ─────────────────────────────────────────────
 
 export const laFlotaData: LocationPageProps = {
-  metaTitle: "Placas Solares en La Flota, Murcia | Instalación Solar + Subvenciones 2025",
-  metaDescription: "Instalamos placas solares en La Flota (Murcia). Ahorra hasta 1.200€/año, bonificación IBI y deducción IRPF 20%. Presupuesto gratuito en 24h. ☎ 868 35 36 92",
+  metaTitle: "Instalación de Placas Solares en La Flota (Murcia) | Presupuesto 24h",
+  metaDescription: "Empresa experta en la instalación de placas solares en el barrio de La Flota (Murcia). Reduce tu factura de luz y solicita tu estudio de viabilidad gratuito.",
   slug: "la-flota",
   h1: "Instalación de Placas Solares en La Flota, Murcia",
   heroSubtitle: "Ahorra hasta 120€/mes desde el primer mes de instalación",
@@ -67,8 +67,8 @@ export const laFlotaData: LocationPageProps = {
 };
 
 export const elCarmenData: LocationPageProps = {
-  metaTitle: "Placas Solares en El Carmen, Murcia | Instalación + Subvenciones 2025",
-  metaDescription: "Instalamos placas solares en El Carmen (Murcia). Ahorra hasta 1.200€/año. Deducción IRPF 20% y subvenciones Next Generation. Presupuesto gratis en 24h.",
+  metaTitle: "Instalación de Placas Solares en El Carmen (Murcia) | Expertos Locales",
+  metaDescription: "Instaladores certificados de placas solares en el Barrio del Carmen (Murcia). Maximizamos tu ahorro energético gestionando todas las subvenciones.",
   slug: "el-carmen",
   h1: "Placas Solares en El Carmen, Murcia",
   heroSubtitle: "Instalación solar con garantía de 25 años — reducción de hasta el 75%",
@@ -91,8 +91,8 @@ export const elCarmenData: LocationPageProps = {
 };
 
 export const espinardoData: LocationPageProps = {
-  metaTitle: "Placas Solares en Espinardo, Murcia | Instalación Solar Residencial e Industrial",
-  metaDescription: "Instalamos placas solares en Espinardo (Murcia). Zona universitaria y residencial con alto potencial solar. Presupuesto gratuito en 24h. ☎ 868 35 36 92",
+  metaTitle: "Instalación de Placas Solares en Espinardo (Murcia) | Ahorro Garantizado",
+  metaDescription: "Instalación de paneles solares para viviendas y empresas en Espinardo, Murcia. Solicita presupuesto y empieza a generar tu propia energía 100% limpia.",
   slug: "espinardo",
   h1: "Instalación de Placas Solares en Espinardo, Murcia",
   heroSubtitle: "Energía solar para hogares, empresas y el Parque Científico",
@@ -118,8 +118,8 @@ export const espinardoData: LocationPageProps = {
 };
 
 export const churraData: LocationPageProps = {
-  metaTitle: "Placas Solares en Churra, Murcia | Instalación Solar en Urbanizaciones y Chalets",
-  metaDescription: "Instalamos placas solares en Churra (Murcia). Urbanizaciones y chalets con alto potencial solar. Ahorra hasta 1.200€/año. Presupuesto gratuito en 24h.",
+  metaTitle: "Instalación Fotovoltaica en Churra (Murcia) | Subvenciones y Ayudas",
+  metaDescription: "Especialistas en la instalación fotovoltaica para chalets y unifamiliares en la pedanía de Churra (Murcia). Tramitamos tus deducciones del IRPF.",
   slug: "churra",
   h1: "Placas Solares en Churra, Murcia",
   heroSubtitle: "La solución solar para tus urbanizaciones y chalets — factura cero en verano",
@@ -142,8 +142,8 @@ export const churraData: LocationPageProps = {
 };
 
 export const laPazData: LocationPageProps = {
-  metaTitle: "Placas Solares en La Paz, Murcia | Instalación Solar + Subvenciones 2025",
-  metaDescription: "Instalamos placas solares en el barrio de La Paz, Murcia. Ahorra en tu factura eléctrica con energía solar. Deducción IRPF 20%. Presupuesto gratis en 24h.",
+  metaTitle: "Instalación de Placas Solares en La Paz (Murcia) | Energía Limpia",
+  metaDescription: "Pásate al autoconsumo instalando placas solares en el barrio de La Paz (Murcia). Mejora la eficiencia energética de tu hogar de forma sencilla.",
   slug: "la-paz",
   h1: "Placas Solares en el Barrio de La Paz, Murcia",
   heroSubtitle: "Reduce tu factura hasta un 75% — autoconsumo individual y colectivo",
@@ -166,8 +166,8 @@ export const laPazData: LocationPageProps = {
 };
 
 export const elRaneroData: LocationPageProps = {
-  metaTitle: "Placas Solares en El Ranero, Murcia | Instalación Solar Residencial 2025",
-  metaDescription: "Instalamos placas solares en El Ranero (Murcia). Ahorra hasta 1.200€/año. Subvenciones Next Generation y deducción IRPF 20%. Presupuesto gratuito en 24h.",
+  metaTitle: "Instalación de Placas Solares en El Ranero (Murcia) | Autoconsumo Residencial",
+  metaDescription: "Servicio de instalación de placas solares en El Ranero, Murcia capital. Paneles de máxima eficiencia, garantía de 25 años y financiación a medida.",
   slug: "el-ranero",
   h1: "Instalación de Placas Solares en El Ranero, Murcia",
   heroSubtitle: "Ahorro real desde el primer año — factura cero en verano",
@@ -190,8 +190,8 @@ export const elRaneroData: LocationPageProps = {
 };
 
 export const vistabellaData: LocationPageProps = {
-  metaTitle: "Placas Solares en Vistabella, Murcia | Instalación Solar + Subvenciones",
-  metaDescription: "Instalamos placas solares en Vistabella (Murcia). Urbanización con alto potencial solar. Ahorra hasta 1.200€/año. Presupuesto gratuito en 24h. ☎ 868 35 36 92",
+  metaTitle: "Instalación Fotovoltaica en Vistabella (Murcia) | Ahorro en Factura",
+  metaDescription: "Instaladores locales de paneles fotovoltaicos en Vistabella, Murcia. Consigue el máximo ahorro mensual en tu factura de electricidad.",
   slug: "vistabella",
   h1: "Placas Solares en Vistabella, Murcia",
   heroSubtitle: "La urbanización solar de referencia — máximo rendimiento en tejados modernos",
@@ -214,8 +214,8 @@ export const vistabellaData: LocationPageProps = {
 };
 
 export const juanCarlosIData: LocationPageProps = {
-  metaTitle: "Placas Solares en Juan Carlos I, Murcia | Instalación Solar 2025",
-  metaDescription: "Instalamos placas solares en el barrio Juan Carlos I de Murcia. Ahorra hasta 1.200€/año. Subvenciones gestionadas. Presupuesto gratuito en 24h.",
+  metaTitle: "Instalación de Placas Solares en Av. Juan Carlos I (Murcia) | Eficiencia Energética",
+  metaDescription: "Tu empresa de instalación de placas solares de confianza en la zona Avenida Juan Carlos I, Murcia. Proyectos a medida para áticos y residenciales.",
   slug: "juan-carlos-i",
   h1: "Placas Solares en Juan Carlos I, Murcia",
   heroSubtitle: "Energía solar en el corazón residencial de la ciudad",
@@ -238,8 +238,8 @@ export const juanCarlosIData: LocationPageProps = {
 };
 
 export const laAlbercaData: LocationPageProps = {
-  metaTitle: "Placas Solares en La Alberca, Murcia | Instalación Solar Chalets y Viviendas",
-  metaDescription: "Instalamos placas solares en La Alberca (Murcia). Chalets y viviendas unifamiliares con alto potencial solar. Ahorra hasta 1.200€/año. Presupuesto gratis en 24h.",
+  metaTitle: "Instalación de Placas Solares en La Alberca (Murcia) | Paneles para Chalets",
+  metaDescription: "Instalación de placas solares en chalets y viviendas unifamiliares de La Alberca (Murcia). Aprovecha al máximo la energía solar en la zona del Valle.",
   slug: "la-alberca",
   h1: "Instalación de Placas Solares en La Alberca, Murcia",
   heroSubtitle: "Energía solar para tus chalets y viviendas — factura cero en verano",
@@ -262,8 +262,8 @@ export const laAlbercaData: LocationPageProps = {
 };
 
 export const elPalmarData: LocationPageProps = {
-  metaTitle: "Placas Solares en El Palmar, Murcia | Instalación Solar + Subvenciones 2025",
-  metaDescription: "Instalamos placas solares en El Palmar (Murcia). Pedanía con alto potencial solar. Ahorra hasta 1.200€/año. Deducción IRPF 20%. Presupuesto gratuito en 24h.",
+  metaTitle: "Instalación Fotovoltaica en El Palmar (Murcia) | Instaladores Certificados",
+  metaDescription: "Profesionales en instalación de placas solares en El Palmar, Murcia. Realizamos instalaciones en viviendas, comunidades y comercios con garantía total.",
   slug: "el-palmar",
   h1: "Placas Solares en El Palmar, Murcia",
   heroSubtitle: "Instalación solar en la pedanía más soleada del sur — hasta 130€/mes de ahorro",
@@ -290,8 +290,8 @@ export const elPalmarData: LocationPageProps = {
 // ─────────────────────────────────────────────
 
 export const cartagenaData: LocationPageProps = {
-  metaTitle: "Placas Solares en Cartagena | Bonificación IBI 50% · 3 Años · Instalación Solar 2025",
-  metaDescription: "Instalamos placas solares en Cartagena. Bonificación IBI 50% durante 3 años + deducción IRPF 20%. Ahorra hasta 1.200€/año. Presupuesto gratuito en 24h.",
+  metaTitle: "Instalación de Placas Solares en Cartagena | Presupuesto Solar 24h",
+  metaDescription: "La mejor empresa de instalación de placas solares en Cartagena. Servicio garantizado, instalación rápida y gestión integral de bonificaciones del IBI.",
   slug: "cartagena",
   h1: "Instalación de Placas Solares en Cartagena",
   heroSubtitle: "Bonificación IBI 50% durante 3 años — amortización en solo 3,5 años",
@@ -325,8 +325,8 @@ export const cartagenaData: LocationPageProps = {
 };
 
 export const lorcaData: LocationPageProps = {
-  metaTitle: "Placas Solares en Lorca | Instalación Solar Residencial y Agrícola · 2025",
-  metaDescription: "Instalamos placas solares en Lorca. Soluciones para viviendas, empresas y explotaciones agrícolas. Subvenciones gestionadas. Presupuesto gratuito en 24h.",
+  metaTitle: "Instalación de Placas Solares en Lorca | Autoconsumo Residencial y Agrícola",
+  metaDescription: "Expertos en instalación fotovoltaica en Lorca. Soluciones solares personalizadas para viviendas unifamiliares, empresas y naves agrícolas.",
   slug: "lorca",
   h1: "Placas Solares en Lorca",
   heroSubtitle: "Energía solar para la Ciudad del Sol — residencial, industrial y agrícola",
@@ -355,8 +355,8 @@ export const lorcaData: LocationPageProps = {
 };
 
 export const molinaDeSeguraData: LocationPageProps = {
-  metaTitle: "Placas Solares en Molina de Segura | Bonificación IBI 40% + Instalación Solar",
-  metaDescription: "Instalamos placas solares en Molina de Segura. Bonificación IBI 40% durante 3 años. Soluciones residenciales e industriales. Presupuesto gratuito en 24h.",
+  metaTitle: "Instalación Fotovoltaica en Molina de Segura | Subvenciones y Ahorro",
+  metaDescription: "Líderes en instalación de placas solares en Molina de Segura, Altorreal y La Alcayna. Consigue hasta un 80% de ahorro anual en electricidad.",
   slug: "molina-de-segura",
   h1: "Placas Solares en Molina de Segura",
   heroSubtitle: "Bonificación IBI 40% durante 3 años — residencial e industrial",
@@ -391,8 +391,8 @@ export const molinaDeSeguraData: LocationPageProps = {
 };
 
 export const alcantarillaData: LocationPageProps = {
-  metaTitle: "Placas Solares en Alcantarilla | Instalación Solar Residencial e Industrial 2025",
-  metaDescription: "Instalamos placas solares en Alcantarilla. Soluciones para viviendas y empresas del Polígono Industrial Oeste. Presupuesto gratuito en 24h. ☎ 868 35 36 92",
+  metaTitle: "Instalación de Placas Solares en Alcantarilla | Máxima Rentabilidad",
+  metaDescription: "Descubre el ahorro con tu instalación de placas solares en Alcantarilla. Tramitamos tu subvención Next Generation de principio a fin.",
   slug: "alcantarilla",
   h1: "Instalación de Placas Solares en Alcantarilla",
   heroSubtitle: "Energía solar en el municipio más denso de España — autoconsumo individual y colectivo",
@@ -421,8 +421,8 @@ export const alcantarillaData: LocationPageProps = {
 };
 
 export const torrePachecoData: LocationPageProps = {
-  metaTitle: "Placas Solares en Torre-Pacheco | Bonificación IBI 50% · Instalación Solar 2025",
-  metaDescription: "Instalamos placas solares en Torre-Pacheco. Bonificación IBI 50% + deducción IRPF 20%. Soluciones residenciales, industriales y agrícolas. Presupuesto gratis en 24h.",
+  metaTitle: "Instalación de Placas Solares en Torre-Pacheco | Bonificación IBI 50%",
+  metaDescription: "Instalación de placas solares en Torre-Pacheco, Roldán y Balsicas. Disfruta del autoconsumo y consigue una bonificación del 50% en el IBI.",
   slug: "torre-pacheco",
   h1: "Placas Solares en Torre-Pacheco",
   heroSubtitle: "Bonificación IBI 50% — residencial, industrial y agrícola en el Campo de Cartagena",
@@ -451,8 +451,8 @@ export const torrePachecoData: LocationPageProps = {
 };
 
 export const sanJavierData: LocationPageProps = {
-  metaTitle: "Placas Solares en San Javier | Instalación Solar Santiago de la Ribera · 2025",
-  metaDescription: "Instalamos placas solares en San Javier y Santiago de la Ribera. Chalets y apartamentos con alto potencial solar. Presupuesto gratuito en 24h. ☎ 868 35 36 92",
+  metaTitle: "Instalación Fotovoltaica en San Javier | Paneles Solares en Mar Menor",
+  metaDescription: "Especialistas en paneles solares y fotovoltaica en San Javier y Santiago de la Ribera. Las mejores instalaciones solares de la zona del Mar Menor.",
   slug: "san-javier",
   h1: "Placas Solares en San Javier",
   heroSubtitle: "Energía solar en el Mar Menor — primera y segunda residencia con garantía de 25 años",
@@ -480,8 +480,8 @@ export const sanJavierData: LocationPageProps = {
 };
 
 export const yeclaData: LocationPageProps = {
-  metaTitle: "Placas Solares en Yecla | Bonificación IBI 50% · 5 Años · Instalación Solar 2025",
-  metaDescription: "Instalamos placas solares en Yecla. Bonificación IBI 50% durante 5 años. Soluciones para bodegas, industria del mueble y viviendas. Presupuesto gratis en 24h.",
+  metaTitle: "Instalación de Placas Solares en Yecla | Energía Solar para el Altiplano",
+  metaDescription: "Sistemas de energía fotovoltaica en Yecla y el Altiplano. Instalaciones solares residenciales, industriales y agrícolas con máxima rentabilidad.",
   slug: "yecla",
   h1: "Placas Solares en Yecla",
   heroSubtitle: "Bonificación IBI 50% durante 5 años — la mejor del Altiplano murciano",
@@ -516,8 +516,8 @@ export const yeclaData: LocationPageProps = {
 };
 
 export const jumillaData: LocationPageProps = {
-  metaTitle: "Placas Solares en Jumilla | Bonificación IBI 50% · 5 Años · Bodegas y Viviendas",
-  metaDescription: "Instalamos placas solares en Jumilla. Bonificación IBI 50% durante 5 años. Soluciones para bodegas, explotaciones agrícolas y viviendas. Presupuesto gratis en 24h.",
+  metaTitle: "Instalación Fotovoltaica en Jumilla | Especialistas en Fincas y Bodegas",
+  metaDescription: "Servicio experto de instalación de placas solares en Jumilla. Soluciones a medida para viviendas, bodegas y fincas agrícolas de la comarca.",
   slug: "jumilla",
   h1: "Placas Solares en Jumilla",
   heroSubtitle: "Energía solar para la capital del vino Monastrell — IBI 50% durante 5 años",
@@ -552,8 +552,8 @@ export const jumillaData: LocationPageProps = {
 };
 
 export const ciezaData: LocationPageProps = {
-  metaTitle: "Placas Solares en Cieza | Instalación Solar + Bonificación IBI · La Perla del Segura",
-  metaDescription: "Instalamos placas solares en Cieza. Bonificación IBI 20% durante 5 años. Soluciones para viviendas y explotaciones frutícolas. Presupuesto gratuito en 24h.",
+  metaTitle: "Instalación de Placas Solares en Cieza | Ahorro Energético en Vega Alta",
+  metaDescription: "Tu instalador local de placas solares en Cieza y la Vega Alta. Ahorra energía en tu vivienda habitual o en instalaciones de bombeo solar agrícola.",
   slug: "cieza",
   h1: "Placas Solares en Cieza",
   heroSubtitle: "Energía solar para la Perla del Segura — frutales, viviendas y turismo rural",
