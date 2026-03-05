@@ -1533,17 +1533,19 @@ function Footer() {
             <h4 className="text-xs font-bold text-white uppercase tracking-wider mb-4" style={heading}>Empresa</h4>
             <ul className="flex flex-col gap-2">
               {[
-                { label: "Sobre nosotros", href: "/" },
-                { label: "Instaladores certificados", href: "/" },
-                { label: "Garantías y certificaciones", href: "/" },
-                { label: "Blog solar Murcia", href: "/" },
+                { label: "Instaladores certificados" },
+                { label: "Garantías y certificaciones" },
                 { label: "Contacto", href: "/" },
-                { label: "Aviso legal", href: "/aviso-legal/" },
-                { label: "Política de privacidad", href: "/politica-privacidad/" },
-                { label: "Cookies", href: "/cookies/" },
+                { label: "Aviso legal", href: "/aviso-legal" },
+                { label: "Política de privacidad", href: "/politica-privacidad" },
+                { label: "Cookies", href: "/cookies" },
               ].map((l, i) => (
                 <li key={i}>
-                  <a href={l.href} className={linkCls} style={{ color: col, ...body }}>{l.label}</a>
+                  {l.href ? (
+                    <a href={l.href} className={linkCls} style={{ color: col, ...body }}>{l.label}</a>
+                  ) : (
+                    <span className="text-xs leading-relaxed" style={{ color: col, cursor: "default", ...body }}>{l.label}</span>
+                  )}
                 </li>
               ))}
             </ul>
