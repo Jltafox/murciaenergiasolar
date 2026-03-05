@@ -75,7 +75,7 @@ export default function Footer() {
           </div>
           <div className="flex items-center gap-2 text-xs" style={{ color: col, ...body }}>
             <span className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
-            Lun–Vie 8:00–19:00 · Sáb 9:00–14:00
+            Lun–Vie 9:00–20:00
           </div>
         </div>
       </div>

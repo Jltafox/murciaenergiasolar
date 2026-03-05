@@ -38,7 +38,14 @@ import Yecla from "./pages/locations/Yecla";
 import Jumilla from "./pages/locations/Jumilla";
 import Cieza from "./pages/locations/Cieza";
 
+
+// Legal Pages
+import AvisoLegal from "./pages/legal/AvisoLegal";
+import PoliticaPrivacidad from "./pages/legal/PoliticaPrivacidad";
+import Cookies from "./pages/legal/Cookies";
+
 function Router() {
+
   useCanonical();
 
   return (
@@ -77,7 +84,14 @@ function Router() {
       <Route path="/murcia/instalacion-placas-solares-jumilla" component={Jumilla} />
       <Route path="/murcia/instalacion-placas-solares-cieza" component={Cieza} />
 
+
+      {/* Legal Pages */}
+      <Route path="/aviso-legal" component={AvisoLegal} />
+      <Route path="/politica-privacidad" component={PoliticaPrivacidad} />
+      <Route path="/cookies" component={Cookies} />
+
       {/* 404 */}
+
       <Route path="/404" component={NotFound} />
       <Route component={NotFound} />
     </Switch>
