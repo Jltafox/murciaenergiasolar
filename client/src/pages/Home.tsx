@@ -1536,9 +1536,6 @@ function Footer() {
                 { label: "Instaladores certificados" },
                 { label: "Garantías y certificaciones" },
                 { label: "Contacto", href: "/" },
-                { label: "Aviso legal", href: "/aviso-legal" },
-                { label: "Política de privacidad", href: "/politica-privacidad" },
-                { label: "Cookies", href: "/cookies" },
               ].map((l, i) => (
                 <li key={i}>
                   {l.href ? (
