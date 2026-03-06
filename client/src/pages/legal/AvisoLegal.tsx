@@ -2,8 +2,11 @@ import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
+import { useNoIndex } from "@/hooks/useNoIndex";
 
 export default function AvisoLegal() {
+  useNoIndex();
+
   return (
     <div className="min-h-screen flex flex-col font-sans">
 

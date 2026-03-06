@@ -104,16 +104,4 @@
     <loc>https://murciaenergiasolar.es/murcia/instalacion-placas-solares-cieza</loc>
     <priority>0.6</priority>
   </url>
-  <url>
-    <loc>https://murciaenergiasolar.es/aviso-legal</loc>
-    <priority>0.1</priority>
-  </url>
-  <url>
-    <loc>https://murciaenergiasolar.es/politica-privacidad</loc>
-    <priority>0.1</priority>
-  </url>
-  <url>
-    <loc>https://murciaenergiasolar.es/cookies</loc>
-    <priority>0.1</priority>
-  </url>
 </urlset>
