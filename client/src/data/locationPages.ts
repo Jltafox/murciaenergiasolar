@@ -42,10 +42,10 @@ const faqsComunes = [
 // ─────────────────────────────────────────────
 
 export const laFlotaData: LocationPageProps = {
-  metaTitle: "Instalación de Placas Solares en La Flota (Murcia) | Presupuesto 24h",
-  metaDescription: "Empresa experta en la instalación de placas solares en el barrio de La Flota (Murcia). Reduce tu factura de luz y solicita tu estudio de viabilidad gratuito.",
+  metaTitle: "Instalar Placas Solares en La Flota, Murcia | Presupuesto en 24h",
+  metaDescription: "Empresa de instalación de paneles solares en el barrio de La Flota, Murcia capital. Reduce tu factura de luz con energía renovable. ¡Estudio gratis!",
   slug: "la-flota",
-  h1: "Instalación de Placas Solares en La Flota, Murcia",
+  h1: "Instalación de Paneles Solares en La Flota, Murcia",
   heroSubtitle: "Ahorra hasta 120€/mes desde el primer mes de instalación",
   heroIntro: "La Flota es uno de los barrios más consolidados de Murcia capital, con urbanizaciones de chalets adosados y bloques modernos perfectos para la energía solar. Con más de 3.300 horas de sol al año, tu tejado es una central eléctrica que todavía no estás aprovechando.\n\nUna instalación de 5–6 kWp genera entre 7.000 y 8.500 kWh anuales, cubriendo el 80% del consumo de una familia de 4 personas. Recuperas la inversión en 6–8 años y ahorras durante 25 años más.",
   landmarks: "Situado entre El Ranero, Vistabella y Juan Carlos I, La Flota combina calidad residencial con una orientación solar excelente.",
@@ -67,10 +67,10 @@ export const laFlotaData: LocationPageProps = {
 };
 
 export const elCarmenData: LocationPageProps = {
-  metaTitle: "Instalación de Placas Solares en El Carmen (Murcia) | Expertos Locales",
-  metaDescription: "Instaladores certificados de placas solares en el Barrio del Carmen (Murcia). Maximizamos tu ahorro energético gestionando todas las subvenciones.",
+  metaTitle: "Empresa de Placas Solares en el Barrio del Carmen, Murcia",
+  metaDescription: "Instaladores locales de sistemas de autoconsumo solar en El Carmen (Murcia). Gestionamos todas las subvenciones y bonificaciones para tu hogar.",
   slug: "el-carmen",
-  h1: "Placas Solares en El Carmen, Murcia",
+  h1: "Empresa de Autoconsumo Solar en El Carmen, Murcia",
   heroSubtitle: "Instalación solar con garantía de 25 años — reducción de hasta el 75%",
   heroIntro: "El Carmen es el barrio más histórico de Murcia capital, a orillas del Río Segura, con el Puente de los Peligros y la Ermita de Jesús como referentes. Sus viviendas tradicionales rehabilitadas y edificios con cubierta plana son candidatos ideales para la energía solar.\n\nLas viviendas antiguas del barrio, construidas entre los años 60 y 80, tienen un aislamiento deficiente que dispara el consumo de climatización. Con placas solares, ese gasto se puede reducir hasta un 75% en las horas de mayor producción solar.",
   landmarks: "A orillas del Río Segura, con el Puente de los Peligros y la Ermita de Jesús como iconos del barrio.",
@@ -91,10 +91,10 @@ export const elCarmenData: LocationPageProps = {
 };
 
 export const espinardoData: LocationPageProps = {
-  metaTitle: "Instalación de Placas Solares en Espinardo (Murcia) | Ahorro Garantizado",
-  metaDescription: "Instalación de paneles solares para viviendas y empresas en Espinardo, Murcia. Solicita presupuesto y empieza a generar tu propia energía 100% limpia.",
+  metaTitle: "Sistemas de Energía Solar en Espinardo, Murcia | Ahorro Garantizado",
+  metaDescription: "Especialistas en instalaciones fotovoltaicas para viviendas y empresas en Espinardo, Murcia. Empieza a generar tu propia energía 100% limpia.",
   slug: "espinardo",
-  h1: "Instalación de Placas Solares en Espinardo, Murcia",
+  h1: "Instalaciones Fotovoltaicas en Espinardo, Murcia",
   heroSubtitle: "Energía solar para hogares, empresas y el Parque Científico",
   heroIntro: "Espinardo combina el Campus de la Universidad de Murcia, el Parque Científico y Tecnológico y polígonos industriales con urbanizaciones residenciales de alta calidad. Es una zona en constante crecimiento con un potencial de ahorro energético extraordinario.\n\nLas empresas del Polígono Industrial de Espinardo que han instalado sistemas fotovoltaicos han reducido su factura eléctrica entre un 60% y un 80%. Para una nave con un consumo mensual de 2.000€, eso supone un ahorro de 1.200–1.600€ al mes.",
   landmarks: "Sede del Campus de Espinardo de la Universidad de Murcia y del Parque Científico y Tecnológico.",
@@ -118,10 +118,10 @@ export const espinardoData: LocationPageProps = {
 };
 
 export const churraData: LocationPageProps = {
-  metaTitle: "Instalación Fotovoltaica en Churra (Murcia) | Subvenciones y Ayudas",
-  metaDescription: "Especialistas en la instalación fotovoltaica para chalets y unifamiliares en la pedanía de Churra (Murcia). Tramitamos tus deducciones del IRPF.",
+  metaTitle: "Paneles Solares para Unifamiliares en Churra, Murcia",
+  metaDescription: "Especialistas en autoconsumo fotovoltaico para chalets en la pedanía de Churra, Murcia. Tramitamos deducciones del IRPF y subvenciones.",
   slug: "churra",
-  h1: "Placas Solares en Churra, Murcia",
+  h1: "Autoconsumo Fotovoltaico en Churra, Murcia",
   heroSubtitle: "La solución solar para tus urbanizaciones y chalets — factura cero en verano",
   heroIntro: "Churra es una de las pedanías más populares de Murcia capital: a apenas 5 km del centro, bien comunicada por la A-30 y con urbanizaciones de chalets adosados y pareados con tejados a dos aguas perfectos para la energía solar.\n\nEn verano, cuando más calor hace y más necesitas el aire acondicionado, más energía producen tus placas solares. La paradoja solar perfecta: muchos propietarios en Churra tienen factura cero en los meses de julio y agosto.",
   landmarks: "A 5 km del centro de Murcia por la autovía A-30, limita con La Alberca, El Palmar y Sangonera.",
@@ -142,10 +142,10 @@ export const churraData: LocationPageProps = {
 };
 
 export const laPazData: LocationPageProps = {
-  metaTitle: "Instalación de Placas Solares en La Paz (Murcia) | Energía Limpia",
-  metaDescription: "Pásate al autoconsumo instalando placas solares en el barrio de La Paz (Murcia). Mejora la eficiencia energética de tu hogar de forma sencilla.",
+  metaTitle: "Placas Solares en el Barrio de La Paz, Murcia | Energía Renovable",
+  metaDescription: "Pásate al autoconsumo instalando paneles fotovoltaicos en el barrio de La Paz, Murcia. Soluciones a medida para eficiencia energética en tu hogar.",
   slug: "la-paz",
-  h1: "Placas Solares en el Barrio de La Paz, Murcia",
+  h1: "Energía Solar y Paneles Fotovoltaicos en La Paz, Murcia",
   heroSubtitle: "Reduce tu factura hasta un 75% — autoconsumo individual y colectivo",
   heroIntro: "El barrio de La Paz es un distrito residencial consolidado de clase media, con una comunidad vecinal activa y bloques de pisos de los años 70–90. Para este perfil, una instalación solar de 4–5 kWp cubre entre el 60% y el 80% del consumo anual.\n\nMuchos edificios de La Paz tienen cubierta plana con espacio para instalar placas solares en la azotea. Con el autoconsumo colectivo, todos los vecinos se benefician del ahorro en zonas comunes y en sus propias viviendas. Solo se necesita la aprobación de la junta por mayoría simple.",
   landmarks: "Situado al norte del centro urbano, limita con Espinardo y el Campus Universitario.",
@@ -166,10 +166,10 @@ export const laPazData: LocationPageProps = {
 };
 
 export const elRaneroData: LocationPageProps = {
-  metaTitle: "Instalación de Placas Solares en El Ranero (Murcia) | Autoconsumo Residencial",
-  metaDescription: "Servicio de instalación de placas solares en El Ranero, Murcia capital. Paneles de máxima eficiencia, garantía de 25 años y financiación a medida.",
+  metaTitle: "Autoconsumo Residencial con Paneles Solares en El Ranero, Murcia",
+  metaDescription: "Servicio de instalación de placas solares en El Ranero, Murcia. Placas fotovoltaicas de máxima eficiencia, garantía de 25 años y financiación a medida.",
   slug: "el-ranero",
-  h1: "Instalación de Placas Solares en El Ranero, Murcia",
+  h1: "Autoconsumo Residencial Solar en El Ranero, Murcia",
   heroSubtitle: "Ahorro real desde el primer año — factura cero en verano",
   heroIntro: "El Ranero es un barrio residencial tranquilo y bien consolidado de Murcia capital, entre La Flota y Vistabella. Sus urbanizaciones con jardín privado y chalets adosados tienen tejados a dos aguas bien orientados, sin sombras de edificios colindantes — el escenario perfecto para una instalación fotovoltaica de alto rendimiento.\n\nSi tu instalación produce más energía de la que consumes, el excedente se vierte a la red y recibes una compensación económica en tu factura. Muchos propietarios en El Ranero tienen factura de luz prácticamente cero de mayo a septiembre.",
   landmarks: "Situado entre La Flota y Vistabella, al sureste del centro urbano de Murcia.",
@@ -190,10 +190,10 @@ export const elRaneroData: LocationPageProps = {
 };
 
 export const vistabellaData: LocationPageProps = {
-  metaTitle: "Instalación Fotovoltaica en Vistabella (Murcia) | Ahorro en Factura",
-  metaDescription: "Instaladores locales de paneles fotovoltaicos en Vistabella, Murcia. Consigue el máximo ahorro mensual en tu factura de electricidad.",
+  metaTitle: "Energía Solar Fotovoltaica en Vistabella, Murcia",
+  metaDescription: "Expertos en instalaciones de placas fotovoltaicas en Vistabella, Murcia. Consigue el máximo ahorro mensual en tu factura de luz.",
   slug: "vistabella",
-  h1: "Placas Solares en Vistabella, Murcia",
+  h1: "Instalaciones de Placas Fotovoltaicas en Vistabella, Murcia",
   heroSubtitle: "La urbanización solar de referencia — máximo rendimiento en tejados modernos",
   heroIntro: "Vistabella es una de las urbanizaciones residenciales más modernas de Murcia capital. Sus viviendas unifamiliares de nueva construcción tienen tejados modernos, bien orientados y con amplia superficie disponible, lo que permite instalaciones fotovoltaicas de alta eficiencia.\n\nAl ser construcciones recientes, la estructura del tejado está preparada para soportar el peso de los paneles sin refuerzos adicionales. Las zonas comunes de las urbanizaciones también pueden beneficiarse del autoconsumo colectivo.",
   landmarks: "Urbanización moderna limítrofe con Juan Carlos I y El Ranero, al sureste de Murcia capital.",
@@ -214,10 +214,10 @@ export const vistabellaData: LocationPageProps = {
 };
 
 export const juanCarlosIData: LocationPageProps = {
-  metaTitle: "Instalación de Placas Solares en Av. Juan Carlos I (Murcia) | Eficiencia Energética",
-  metaDescription: "Tu empresa de instalación de placas solares de confianza en la zona Avenida Juan Carlos I, Murcia. Proyectos a medida para áticos y residenciales.",
+  metaTitle: "Placas Solares en Zona Juan Carlos I, Murcia | Instaladores Locales",
+  metaDescription: "Empresa de instalación de sistemas solares en Av. Juan Carlos I, Murcia. Proyectos fotovoltaicos a medida para áticos, residenciales y comercios.",
   slug: "juan-carlos-i",
-  h1: "Placas Solares en Juan Carlos I, Murcia",
+  h1: "Instalación de Sistemas Solares en Juan Carlos I, Murcia",
   heroSubtitle: "Energía solar en el corazón residencial de la ciudad",
   heroIntro: "El barrio Juan Carlos I es uno de los más representativos del Murcia residencial moderno: amplias avenidas, bloques de pisos de calidad y zonas comerciales próximas al Estadio Nueva Condomina. El autoconsumo colectivo es la modalidad solar que más impacto tiene en este barrio.\n\nUna instalación en la azotea del edificio puede reducir la factura de las zonas comunes hasta un 80% y generar un ahorro mensual de 30–60€ por vivienda. Solo se necesita la aprobación de la junta de propietarios.",
   landmarks: "Próximo al Estadio Nueva Condomina y al centro comercial Torre Pacheco.",
@@ -238,10 +238,10 @@ export const juanCarlosIData: LocationPageProps = {
 };
 
 export const laAlbercaData: LocationPageProps = {
-  metaTitle: "Instalación de Placas Solares en La Alberca (Murcia) | Paneles para Chalets",
-  metaDescription: "Instalación de placas solares en chalets y viviendas unifamiliares de La Alberca (Murcia). Aprovecha al máximo la energía solar en la zona del Valle.",
+  metaTitle: "Instalar Paneles Solares en La Alberca, Murcia | Energía para Chalets",
+  metaDescription: "Especialistas en la instalación de paneles fotovoltaicos en chalets de La Alberca, Murcia. Maximiza tu ahorro energético con nuestra energía solar.",
   slug: "la-alberca",
-  h1: "Instalación de Placas Solares en La Alberca, Murcia",
+  h1: "Paneles Solares para Viviendas en La Alberca, Murcia",
   heroSubtitle: "Energía solar para tus chalets y viviendas — factura cero en verano",
   heroIntro: "La Alberca es una de las pedanías más queridas de Murcia capital, conocida por su Semana Santa de gran tradición. Sus calles de casas unifamiliares, chalets con jardín y urbanizaciones de baja densidad hacen de La Alberca uno de los mejores escenarios para la instalación de placas solares.\n\nSi tienes piscina en La Alberca, la bomba de filtración es uno de tus mayores consumidores eléctricos. Con placas solares, puedes programar el funcionamiento de la bomba en las horas de mayor producción solar y reducir ese coste a prácticamente cero.",
   landmarks: "Pedanía con fuerte tradición de Semana Santa, entre Churra y El Palmar.",
@@ -262,10 +262,10 @@ export const laAlbercaData: LocationPageProps = {
 };
 
 export const elPalmarData: LocationPageProps = {
-  metaTitle: "Instalación Fotovoltaica en El Palmar (Murcia) | Instaladores Certificados",
-  metaDescription: "Profesionales en instalación de placas solares en El Palmar, Murcia. Realizamos instalaciones en viviendas, comunidades y comercios con garantía total.",
+  metaTitle: "Expertos en Instalación Fotovoltaica en El Palmar, Murcia",
+  metaDescription: "Tus instaladores de confianza para paneles solares en El Palmar, Murcia. Proyectos de autoconsumo para viviendas y empresas con garantía.",
   slug: "el-palmar",
-  h1: "Placas Solares en El Palmar, Murcia",
+  h1: "Instaladores de Energía Fotovoltaica en El Palmar, Murcia",
   heroSubtitle: "Instalación solar en la pedanía más soleada del sur — hasta 130€/mes de ahorro",
   heroIntro: "El Palmar es una pedanía del sur de Murcia capital con identidad propia: zona de huerta tradicional, viviendas unifamiliares con amplio terreno y una irradiación solar excepcional. Situada en la llanura aluvial del Segura, sin obstáculos que generen sombra, El Palmar es el escenario ideal para la energía solar.\n\nMuchos propietarios en El Palmar tienen huertos o pequeñas explotaciones agrícolas con sistemas de riego. Una instalación fotovoltaica con batería de almacenamiento permite alimentar el sistema de riego directamente con energía solar, reduciendo el coste del agua a prácticamente cero.",
   landmarks: "Pedanía de huerta tradicional entre La Alberca y Beniaján, en la llanura aluvial del Segura.",
@@ -290,10 +290,10 @@ export const elPalmarData: LocationPageProps = {
 // ─────────────────────────────────────────────
 
 export const cartagenaData: LocationPageProps = {
-  metaTitle: "Instalación de Placas Solares en Cartagena | Presupuesto Solar 24h",
-  metaDescription: "La mejor empresa de instalación de placas solares en Cartagena. Servicio garantizado, instalación rápida y gestión integral de bonificaciones del IBI.",
+  metaTitle: "Empresa Instaladora de Placas Solares en Cartagena | Pide Presupuesto",
+  metaDescription: "Líderes en instalación de energía solar en Cartagena. Máximo ahorro con nuestros paneles, servicio experto y gestión de la bonificación IBI.",
   slug: "cartagena",
-  h1: "Instalación de Placas Solares en Cartagena",
+  h1: "Empresa de Placas y Paneles Solares en Cartagena",
   heroSubtitle: "Bonificación IBI 50% durante 3 años — amortización en solo 3,5 años",
   heroIntro: "Cartagena, con más de 2.500 años de historia, mira al futuro con la energía solar. Desde el Teatro Romano y la Muralla Púnica hasta las urbanizaciones costeras de La Manga del Mar Menor, Cartagena tiene más de 3.200 horas de sol al año y uno de los incentivos fiscales más atractivos de la Región: bonificación del 50% en el IBI durante 3 años.\n\nCon la deducción IRPF del 20% y las subvenciones Next Generation EU, el coste real de una instalación de 6 kWp queda en aproximadamente 3.865€, con una amortización de solo 3,5 años.",
   landmarks: "Teatro Romano, Muralla Púnica, Casco Antiguo, La Manga del Mar Menor, Los Alcázares.",
@@ -325,10 +325,10 @@ export const cartagenaData: LocationPageProps = {
 };
 
 export const lorcaData: LocationPageProps = {
-  metaTitle: "Instalación de Placas Solares en Lorca | Autoconsumo Residencial y Agrícola",
-  metaDescription: "Expertos en instalación fotovoltaica en Lorca. Soluciones solares personalizadas para viviendas unifamiliares, empresas y naves agrícolas.",
+  metaTitle: "Instalación de Autoconsumo Solar en Lorca | Residencial y Agrícola",
+  metaDescription: "Instaladores expertos de paneles solares fotovoltaicos en Lorca. Proyectos de energía limpia para el hogar, la agricultura y empresas de la zona.",
   slug: "lorca",
-  h1: "Placas Solares en Lorca",
+  h1: "Autoconsumo con Paneles Solares en Lorca",
   heroSubtitle: "Energía solar para la Ciudad del Sol — residencial, industrial y agrícola",
   heroIntro: "Lorca, la 'Ciudad del Sol', no podría tener un apodo más apropiado para hablar de energía solar. El segundo municipio más extenso de España, con el Castillo de Lorca y la Colegiata de San Patricio como referentes, tiene un potencial fotovoltaico enorme en sus tres perfiles: propietario urbano, agricultor de pedanías y empresario del polígono industrial.\n\nLas pedanías agrícolas de Lorca — Zarcilla de Ramos, Coy, Avilés, La Paca — tienen explotaciones con sistemas de riego que pueden ahorrar entre 8.000 y 15.000€ anuales con una instalación solar.",
   landmarks: "Castillo de Lorca, Colegiata de San Patricio, pedanías de Zarcilla de Ramos, Coy y La Paca.",
@@ -355,10 +355,10 @@ export const lorcaData: LocationPageProps = {
 };
 
 export const molinaDeSeguraData: LocationPageProps = {
-  metaTitle: "Instalación Fotovoltaica en Molina de Segura | Subvenciones y Ahorro",
-  metaDescription: "Líderes en instalación de placas solares en Molina de Segura, Altorreal y La Alcayna. Consigue hasta un 80% de ahorro anual en electricidad.",
+  metaTitle: "Placas Solares y Autoconsumo en Molina de Segura | Ahorra Luz",
+  metaDescription: "Expertos en placas fotovoltaicas para Molina de Segura, Altorreal y La Alcayna. Ahorra hasta el 80% de electricidad y tramita tus subvenciones.",
   slug: "molina-de-segura",
-  h1: "Placas Solares en Molina de Segura",
+  h1: "Placas Fotovoltaicas en Molina de Segura",
   heroSubtitle: "Bonificación IBI 40% durante 3 años — residencial e industrial",
   heroIntro: "Molina de Segura es la cuarta ciudad de la Región de Murcia y una de las más dinámicas económicamente. Sede de empresas líderes como Vidal Golosinas y Fini, Molina combina un potente sector industrial con zonas residenciales de alta calidad en El Llano de Molina, Ribera de Molina y Torrealta.\n\nEl Ayuntamiento de Molina incentiva la energía solar con una bonificación del 40% en el IBI durante 3 años. Las empresas del Polígono Industrial El Tapiado pueden ahorrar entre 30.000 y 100.000€ anuales con una instalación fotovoltaica.",
   landmarks: "Parque Regional Sierra de la Pila, Ribera de Molina, Polígono Industrial El Tapiado.",
@@ -391,10 +391,10 @@ export const molinaDeSeguraData: LocationPageProps = {
 };
 
 export const alcantarillaData: LocationPageProps = {
-  metaTitle: "Instalación de Placas Solares en Alcantarilla | Máxima Rentabilidad",
-  metaDescription: "Descubre el ahorro con tu instalación de placas solares en Alcantarilla. Tramitamos tu subvención Next Generation de principio a fin.",
+  metaTitle: "Sistemas Fotovoltaicos en Alcantarilla | Instaladores Expertos",
+  metaDescription: "Aprovecha la energía solar con la instalación de paneles en Alcantarilla. Alta rentabilidad, gestión de ayudas y servicio cercano y transparente.",
   slug: "alcantarilla",
-  h1: "Instalación de Placas Solares en Alcantarilla",
+  h1: "Instalación de Sistemas Fotovoltaicos en Alcantarilla",
   heroSubtitle: "Energía solar en el municipio más denso de España — autoconsumo individual y colectivo",
   heroIntro: "Alcantarilla, conocida por la Noria de la Huerta y el Museo Etnológico de la Huerta de Murcia, es el municipio con mayor densidad de población de España. A apenas 7 km de Murcia capital por la A-30, combina un tejido residencial consolidado con el Polígono Industrial Oeste.\n\nLa alta densidad de Alcantarilla hace del autoconsumo colectivo la solución ideal para los edificios de pisos. Las empresas del Polígono Industrial Oeste pueden reducir su factura eléctrica entre un 60% y un 80% con una instalación fotovoltaica.",
   landmarks: "Noria de la Huerta, Museo Etnológico de la Huerta de Murcia, Polígono Industrial Oeste.",
@@ -421,10 +421,10 @@ export const alcantarillaData: LocationPageProps = {
 };
 
 export const torrePachecoData: LocationPageProps = {
-  metaTitle: "Instalación de Placas Solares en Torre-Pacheco | Bonificación IBI 50%",
-  metaDescription: "Instalación de placas solares en Torre-Pacheco, Roldán y Balsicas. Disfruta del autoconsumo y consigue una bonificación del 50% en el IBI.",
+  metaTitle: "Paneles Solares en Torre-Pacheco | Bonificación IBI 50%",
+  metaDescription: "Pásate a la energía solar en Torre-Pacheco, Roldán y Balsicas. Tramitamos la bonificación IBI para que tu instalación fotovoltaica sea más rentable.",
   slug: "torre-pacheco",
-  h1: "Placas Solares en Torre-Pacheco",
+  h1: "Energía Fotovoltaica en Torre-Pacheco",
   heroSubtitle: "Bonificación IBI 50% — residencial, industrial y agrícola en el Campo de Cartagena",
   heroIntro: "Torre-Pacheco, con el Cabezo Gordo y los Molinos de Viento de Los Camachos como iconos, lleva siglos aprovechando la energía natural. Hoy, esa tradición se traduce en una apuesta decidida por la energía solar, respaldada por una bonificación del 50% en el IBI para instalaciones en viviendas unifamiliares.\n\nLas explotaciones agrícolas del Campo de Cartagena pueden eliminar prácticamente el coste eléctrico del riego durante los meses de primavera y verano con un sistema de bombeo solar directo.",
   landmarks: "Cabezo Gordo, Molinos de Viento de Los Camachos, pedanías de Roldán, Dolores de Pacheco, El Jimenado y Balsicas.",
@@ -451,10 +451,10 @@ export const torrePachecoData: LocationPageProps = {
 };
 
 export const sanJavierData: LocationPageProps = {
-  metaTitle: "Instalación Fotovoltaica en San Javier | Paneles Solares en Mar Menor",
-  metaDescription: "Especialistas en paneles solares y fotovoltaica en San Javier y Santiago de la Ribera. Las mejores instalaciones solares de la zona del Mar Menor.",
+  metaTitle: "Placas Solares para Autoconsumo en San Javier y el Mar Menor",
+  metaDescription: "Tus instaladores de energía fotovoltaica en San Javier y Santiago de la Ribera. Aprovecha el sol del Mar Menor para un ahorro eléctrico insuperable.",
   slug: "san-javier",
-  h1: "Placas Solares en San Javier",
+  h1: "Instalación de Autoconsumo Fotovoltaico en San Javier",
   heroSubtitle: "Energía solar en el Mar Menor — primera y segunda residencia con garantía de 25 años",
   heroIntro: "San Javier combina la tranquilidad costera de Santiago de la Ribera y Los Narejos con la exclusividad de Roda Golf & Beach Resort y la historia de la Academia General del Aire. Con más de 3.200 horas de sol anuales y un microclima costero excepcional, San Javier es el escenario ideal para la energía solar.\n\nPara las segundas residencias, las placas solares reducen el coste de mantenimiento durante los meses en que no estás. El sistema de autoconsumo con batería garantiza energía disponible en todo momento y compensación de excedentes en tu factura.",
   landmarks: "Paseo marítimo de Santiago de la Ribera, Los Narejos, Roda Golf & Beach Resort, Academia General del Aire.",
@@ -480,10 +480,10 @@ export const sanJavierData: LocationPageProps = {
 };
 
 export const yeclaData: LocationPageProps = {
-  metaTitle: "Instalación de Placas Solares en Yecla | Energía Solar para el Altiplano",
-  metaDescription: "Sistemas de energía fotovoltaica en Yecla y el Altiplano. Instalaciones solares residenciales, industriales y agrícolas con máxima rentabilidad.",
+  metaTitle: "Paneles Fotovoltaicos y Energía Solar en Yecla | Presupuesto Gratis",
+  metaDescription: "Especialistas en la instalación de placas solares en Yecla y el Altiplano. Instalaciones limpias y rentables para hogares, campos e industrias.",
   slug: "yecla",
-  h1: "Placas Solares en Yecla",
+  h1: "Sistemas de Paneles Fotovoltaicos en Yecla",
   heroSubtitle: "Bonificación IBI 50% durante 5 años — la mejor del Altiplano murciano",
   heroIntro: "Yecla, corazón del Altiplano murciano, es conocida por el mueble de Yecla y la uva Monastrell. La Basílica de la Purísima preside el centro histórico, y los viñedos de la Denominación de Origen Yecla se extienden por un paisaje semiárido con más de 3.000 horas de sol al año.\n\nYecla tiene uno de los incentivos fiscales más atractivos de la Región: bonificación del 50% en el IBI durante 5 años. Las empresas del sector del mueble pueden reducir su factura eléctrica entre un 60% y un 80% con una instalación fotovoltaica.",
   landmarks: "Basílica de la Purísima, Ruta del Vino de Yecla, polígonos industriales del mueble, bodegas de la DO Yecla.",
@@ -516,10 +516,10 @@ export const yeclaData: LocationPageProps = {
 };
 
 export const jumillaData: LocationPageProps = {
-  metaTitle: "Instalación Fotovoltaica en Jumilla | Especialistas en Fincas y Bodegas",
-  metaDescription: "Servicio experto de instalación de placas solares en Jumilla. Soluciones a medida para viviendas, bodegas y fincas agrícolas de la comarca.",
+  metaTitle: "Energía Fotovoltaica en Jumilla | Instalaciones Solares",
+  metaDescription: "Líderes en instalación de paneles solares fotovoltaicos en Jumilla. Soluciones energéticas a medida para viviendas, bodegas y agricultura.",
   slug: "jumilla",
-  h1: "Placas Solares en Jumilla",
+  h1: "Instalaciones de Energía Fotovoltaica en Jumilla",
   heroSubtitle: "Energía solar para la capital del vino Monastrell — IBI 50% durante 5 años",
   heroIntro: "Jumilla vive de cara al sol y al vino. El Castillo de Jumilla domina el horizonte, el Monasterio de Santa Ana del Monte custodia siglos de historia, y los viñedos de la DO Jumilla — con bodegas como Viña Elena, Bodegas Carchelo y Casa Castillo — reciben más de 3.000 horas de sol al año.\n\nEl Ayuntamiento de Jumilla incentiva la energía solar con una bonificación del 50% en el IBI durante 5 años. Una bodega mediana puede ahorrar entre 20.000 y 80.000€ anuales con una instalación fotovoltaica.",
   landmarks: "Castillo de Jumilla, Monasterio de Santa Ana del Monte, Bodegas Carchelo, Viña Elena, Casa Castillo.",
@@ -552,10 +552,10 @@ export const jumillaData: LocationPageProps = {
 };
 
 export const ciezaData: LocationPageProps = {
-  metaTitle: "Instalación de Placas Solares en Cieza | Ahorro Energético en Vega Alta",
-  metaDescription: "Tu instalador local de placas solares en Cieza y la Vega Alta. Ahorra energía en tu vivienda habitual o en instalaciones de bombeo solar agrícola.",
+  metaTitle: "Placas Solares y Autoconsumo en Cieza | Especialistas Vega Alta",
+  metaDescription: "Descubre el autoconsumo fotovoltaico en Cieza. Instaladores locales para que ahorres luz en casa o en bombeo solar agrícola en la Vega Alta.",
   slug: "cieza",
-  h1: "Placas Solares en Cieza",
+  h1: "Autoconsumo Solar Fotovoltaico en Cieza",
   heroSubtitle: "Energía solar para la Perla del Segura — frutales, viviendas y turismo rural",
   heroIntro: "Cieza, la 'Perla del Segura', es famosa por la floración de sus frutales — especialmente el melocotón — que tiñe el valle del Segura de blanco y rosa cada febrero. El Cañón de Almadenes, el yacimiento de Siyasa y el Río Segura son los iconos de una ciudad que ahora tiene la oportunidad de vivir también del sol.\n\nLas explotaciones frutícolas de Cieza pueden ahorrar entre 5.000 y 20.000€ anuales con una instalación fotovoltaica. El Ayuntamiento incentiva las instalaciones con una bonificación del 20% en el IBI durante 5 años.",
   landmarks: "Cañón de Almadenes, yacimiento musulmán de Siyasa, Río Segura, floración de los frutales.",

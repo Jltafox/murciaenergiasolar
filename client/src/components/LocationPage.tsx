@@ -26,6 +26,7 @@ import {
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import { sendContactForm } from "../lib/contactService";
+import { useSEO } from "../hooks/useSEO";
 
 export interface IncentiveRow {
   ayuda: string;
@@ -120,6 +121,8 @@ function FAQAccordion({ faqs }: { faqs: FAQItem[] }) {
 }
 
 export default function LocationPage(props: LocationPageProps) {
+  useSEO(props.metaTitle, props.metaDescription);
+
   const {
     h1,
     heroSubtitle,
