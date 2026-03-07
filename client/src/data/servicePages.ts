@@ -32,8 +32,8 @@ const incentivosIndustrial = [
 
 // ─── 1. Instalación Solar Residencial ─────────────────────────────────────
 export const instalacionResidencialData: ServicePageProps = {
-  metaTitle: "Instalación de Placas Solares para Casas en Murcia | Presupuesto 24h",
-  metaDescription: "Expertos en la instalación de placas solares para casas, chalets y unifamiliares en toda la Región de Murcia. Reduce tu factura de luz desde el primer día.",
+  metaTitle: "Instalación de Paneles Solares para Viviendas en Murcia",
+  metaDescription: "Instaladores expertos de placas solares para chalets y unifamiliares en la Región de Murcia. Pásate al autoconsumo y ahorra energía desde el primer día.",
   slug: "instalacion-solar-residencial",
   schema: {
     name: "Instalación de Placas Solares Residencial",
@@ -44,7 +44,7 @@ export const instalacionResidencialData: ServicePageProps = {
     priceRange: "4.500€ – 12.000€",
     url: `${BASE_URL}/servicios/instalacion-solar-residencial`,
   },
-  h1: "Instalación de Placas Solares para tu Hogar en Murcia",
+  h1: "Instalación de Paneles Solares para Viviendas en Murcia",
   h1Accent: "Placas Solares",
   heroSubtitle: "Ahorra hasta 1.200€/año desde el primer mes — sin burocracia, sin complicaciones",
   heroIntro: "Con más de 3.300 horas de sol al año, Murcia es la región con mayor irradiación solar de España. Una instalación fotovoltaica de 5–6 kWp genera entre 7.000 y 8.500 kWh anuales, cubriendo el 80% del consumo de una familia de 4 personas.\n\nNosotros nos encargamos de todo: diseño personalizado, instalación en 1–2 días, legalización ante la Consejería de Industria y tramitación de todas las subvenciones disponibles. Tú solo tienes que disfrutar del ahorro.",
@@ -120,8 +120,8 @@ export const instalacionResidencialData: ServicePageProps = {
 
 // ─── 2. Instalación Solar Industrial ──────────────────────────────────────
 export const instalacionIndustrialData: ServicePageProps = {
-  metaTitle: "Instalación de Placas Solares para Empresas en Murcia | Ahorro Energético",
-  metaDescription: "Especialistas en la instalación de placas solares para empresas y naves industriales en Murcia. Aumenta la rentabilidad de tu negocio y reduce costes.",
+  metaTitle: "Sistemas Fotovoltaicos para Empresas y Naves Industriales en Murcia",
+  metaDescription: "Sistemas de energía solar para naves, industrias y empresas en Murcia. Aumenta la rentabilidad de tu negocio reduciendo tus costes de electricidad.",
   slug: "instalacion-solar-industrial",
   schema: {
     name: "Instalación de Placas Solares Industrial",
@@ -132,7 +132,7 @@ export const instalacionIndustrialData: ServicePageProps = {
     priceRange: "15.000€ – 500.000€",
     url: `${BASE_URL}/servicios/instalacion-solar-industrial`,
   },
-  h1: "Instalación Solar Industrial en Murcia",
+  h1: "Sistemas Fotovoltaicos para Naves Industriales en Murcia",
   h1Accent: "Solar Industrial",
   heroSubtitle: "Reduce tu factura eléctrica hasta un 80% — ROI en 3–5 años para naves y empresas",
   heroIntro: "Las empresas y naves industriales de Murcia tienen un perfil de consumo ideal para la energía solar: alto consumo diurno, grandes superficies de cubierta disponibles y facturas eléctricas que pueden superar los 5.000€ mensuales.\n\nUna instalación fotovoltaica industrial de 50–200 kWp puede generar entre 65.000 y 260.000 kWh anuales, reduciendo la factura eléctrica entre un 60% y un 80%. El retorno de la inversión se sitúa entre 3 y 5 años.",
@@ -207,8 +207,8 @@ export const instalacionIndustrialData: ServicePageProps = {
 
 // ─── 3. Baterías de Almacenamiento ────────────────────────────────────────
 export const bateriasData: ServicePageProps = {
-  metaTitle: "Instalación de Baterías de Almacenamiento Solar en Murcia | Independencia",
-  metaDescription: "Instalación de baterías de almacenamiento para sistemas solares fotovoltaicos en Murcia. Guarda tu energía excedente y ahorra en tu factura de luz 24/7.",
+  metaTitle: "Baterías Solares y Sistemas de Almacenamiento de Energía en Murcia",
+  metaDescription: "Baterías solares y acumuladores para tu instalación fotovoltaica en Murcia. Guarda el excedente de tu energía y ahorra en tu factura de luz día y noche.",
   slug: "baterias-almacenamiento-solar",
   schema: {
     name: "Instalación de Baterías de Almacenamiento Solar",
@@ -219,7 +219,7 @@ export const bateriasData: ServicePageProps = {
     priceRange: "3.000€ – 15.000€",
     url: `${BASE_URL}/servicios/baterias-almacenamiento-solar`,
   },
-  h1: "Baterías de Almacenamiento Solar en Murcia",
+  h1: "Sistemas de Almacenamiento y Baterías Solares en Murcia",
   h1Accent: "Baterías de Almacenamiento",
   heroSubtitle: "Usa la energía solar de día y de noche — factura cero las 24 horas",
   heroIntro: "Las placas solares producen energía cuando el sol brilla. Las baterías de almacenamiento guardan el excedente para usarlo cuando más lo necesitas: por la noche, en días nublados o durante los picos de consumo.\n\nCon una batería de 10 kWh y una instalación de 5 kWp, muchas familias en Murcia consiguen una autosuficiencia energética del 90–95%, con facturas de luz prácticamente cero durante todo el año.",
@@ -299,8 +299,8 @@ export const bateriasData: ServicePageProps = {
 
 // ─── 4. Mantenimiento y Revisión ──────────────────────────────────────────
 export const mantenimientoData: ServicePageProps = {
-  metaTitle: "Mantenimiento y Revisión de Placas Solares en Murcia | Servicio Técnico",
-  metaDescription: "Asegura el máximo rendimiento de tu instalación con nuestro servicio de limpieza y mantenimiento de placas solares en Murcia. Pide presupuesto sin compromiso.",
+  metaTitle: "Mantenimiento de Paneles Fotovoltaicos y Limpieza Solar en Murcia",
+  metaDescription: "Asegura la eficiencia de tu instalación con un mantenimiento experto de paneles fotovoltaicos en Murcia. Limpieza, revisiones técnicas y soporte 24h.",
   slug: "mantenimiento-placas-solares",
   schema: {
     name: "Mantenimiento y Revisión de Placas Solares",
@@ -311,7 +311,7 @@ export const mantenimientoData: ServicePageProps = {
     priceRange: "150€ – 800€/año",
     url: `${BASE_URL}/servicios/mantenimiento-placas-solares`,
   },
-  h1: "Mantenimiento de Placas Solares en Murcia",
+  h1: "Mantenimiento de Paneles Fotovoltaicos en Murcia",
   h1Accent: "Mantenimiento de Placas Solares",
   heroSubtitle: "Garantiza el máximo rendimiento de tu instalación — revisión anual desde 150€",
   heroIntro: "Una instalación solar sin mantenimiento puede perder hasta un 25% de su rendimiento en los primeros 5 años. El polvo, la suciedad, las aves y los cambios en la vegetación colindante son los principales enemigos del rendimiento fotovoltaico en Murcia.\n\nNuestro servicio de mantenimiento anual incluye limpieza profesional, revisión eléctrica completa, inspección termográfica y actualización del sistema de monitorización. Garantizamos el máximo rendimiento de tu instalación durante toda su vida útil.",
@@ -391,8 +391,8 @@ export const mantenimientoData: ServicePageProps = {
 
 // ─── 5. Subvenciones y Tramitación ────────────────────────────────────────
 export const subvencionesData: ServicePageProps = {
-  metaTitle: "Subvenciones y Ayudas para Placas Solares en Murcia | Gestión Integral",
-  metaDescription: "Nos encargamos de gestionar el 100% de las subvenciones, ayudas y bonificaciones (IRPF, IBI) para tu instalación de placas solares en la Región de Murcia.",
+  metaTitle: "Gestión de Subvenciones de Energía Solar y Fotovoltaica en Murcia",
+  metaDescription: "Tramitamos ayudas, bonificaciones del IBI y deducciones del IRPF para instalaciones de energía solar y fotovoltaica en toda la Región de Murcia.",
   slug: "subvenciones-placas-solares",
   schema: {
     name: "Tramitación de Subvenciones para Placas Solares",
@@ -403,7 +403,7 @@ export const subvencionesData: ServicePageProps = {
     priceRange: "Servicio gratuito incluido en la instalación",
     url: `${BASE_URL}/servicios/subvenciones-placas-solares`,
   },
-  h1: "Subvenciones para Placas Solares en Murcia 2025",
+  h1: "Ayudas y Subvenciones de Energía Fotovoltaica en Murcia",
   h1Accent: "Subvenciones",
   heroSubtitle: "Ahorra hasta el 40% del coste real — tramitamos todas las ayudas por ti, sin coste",
   heroIntro: "El marco de ayudas para la energía solar en España es uno de los más generosos de Europa. En Murcia, combinando la deducción IRPF del 20%, las subvenciones Next Generation EU y la bonificación IBI de tu municipio, puedes reducir el coste real de tu instalación hasta un 40%.\n\nNosotros tramitamos todas las subvenciones disponibles sin coste adicional. Conocemos cada ayuda, cada plazo y cada requisito para que no pierdas ni un euro de lo que te corresponde.",
@@ -488,8 +488,8 @@ export const subvencionesData: ServicePageProps = {
 
 // ─── 6. Autoconsumo Colectivo ─────────────────────────────────────────────
 export const autoconsumoColetivoData: ServicePageProps = {
-  metaTitle: "Instalación de Placas Solares para Comunidades de Vecinos en Murcia",
-  metaDescription: "Reduce los gastos de las zonas comunes instalando placas solares para tu comunidad de propietarios en Murcia. Estudio de viabilidad gratuito para vecinos.",
+  metaTitle: "Autoconsumo Solar Colectivo para Comunidades de Propietarios en Murcia",
+  metaDescription: "Instalación de paneles solares para comunidades de propietarios en Murcia. Reduce gastos comunes de luz de forma equitativa y rentable.",
   slug: "autoconsumo-colectivo",
   schema: {
     name: "Instalación de Autoconsumo Colectivo",
@@ -500,7 +500,7 @@ export const autoconsumoColetivoData: ServicePageProps = {
     priceRange: "8.000€ – 30.000€",
     url: `${BASE_URL}/servicios/autoconsumo-colectivo`,
   },
-  h1: "Autoconsumo Colectivo para Comunidades de Vecinos en Murcia",
+  h1: "Autoconsumo Solar Colectivo para Comunidades en Murcia",
   h1Accent: "Autoconsumo Colectivo",
   heroSubtitle: "Todos los vecinos ahorran en su factura — aprobación por mayoría simple en la junta",
   heroIntro: "El autoconsumo colectivo permite que todos los vecinos de un edificio se beneficien de la energía solar instalada en la azotea. La energía producida se reparte entre las zonas comunes y cada vivienda según los coeficientes de participación acordados en la junta.\n\nSolo se necesita la aprobación por mayoría simple en la junta de propietarios. Una instalación de 20–30 kWp en la azotea puede reducir la factura de las zonas comunes hasta un 80% y generar un ahorro mensual de 30–60€ por vivienda.",

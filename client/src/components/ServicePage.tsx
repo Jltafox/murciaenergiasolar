@@ -42,6 +42,7 @@ import {
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import { sendContactForm } from "../lib/contactService";
+import { useSEO } from "../hooks/useSEO";
 
 // ── Types ──────────────────────────────────────────────────────────────────
 
@@ -189,6 +190,8 @@ function FAQAccordion({ faqs }: { faqs: FAQItem[] }) {
 // ── Main Component ─────────────────────────────────────────────────────────
 
 export default function ServicePage(props: ServicePageProps) {
+  useSEO(props.metaTitle, props.metaDescription);
+
   const {
     h1, h1Accent, heroSubtitle, heroIntro, heroBadge,
     quickBenefits,

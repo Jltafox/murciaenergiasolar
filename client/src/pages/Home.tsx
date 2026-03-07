@@ -28,6 +28,7 @@ import {
   MessageCircle, Menu, X, Calculator, ChevronRight, Loader2
 } from "lucide-react";
 import { sendContactForm } from "../lib/contactService";
+import { useSEO } from "../hooks/useSEO";
 
 // ─── Image URLs (WebP optimizado, CDN permanente) ────────────────────────────
 // hero: 290KB WebP vs 7MB JPG original (96% reducción)
@@ -1622,6 +1623,11 @@ function StickyMobileCTA() {
 
 // ─── Main Page ────────────────────────────────────────────────────────────────
 export default function Home() {
+  useSEO(
+    "Empresa de Instalación de Placas Solares en Murcia | Presupuesto 24h",
+    "Especialistas en la instalación de placas solares en Murcia para casas, comunidades y empresas. Tramitamos tus subvenciones para el máximo ahorro de luz."
+  );
+
   // Schema FAQ JSON-LD para rich snippets en Google
   const faqSchema = {
     "@context": "https://schema.org",
