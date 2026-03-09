@@ -1324,6 +1324,102 @@ function FAQSection() {
   );
 }
 
+// ─── Location Section ─────────────────────────────────────────────────────────
+function LocationSection() {
+  return (
+    <section id="ubicacion" className="py-20 bg-white border-t border-gray-100">
+      <div className="container">
+        <div className="text-center mb-12">
+          <div className="badge-solar mx-auto mb-4">
+            <MapPin className="w-3.5 h-3.5" />
+            Dónde estamos
+          </div>
+          <h2 className="section-title text-3xl sm:text-4xl mb-4">
+            Visítanos en Murcia
+          </h2>
+          <p className="section-subtitle text-lg max-w-2xl mx-auto">
+            Nuestra oficina principal está en Murcia. Ven a conocernos o contáctanos para un presupuesto gratuito.
+          </p>
+        </div>
+
+        <div className="grid lg:grid-cols-2 gap-10 items-center">
+          {/* Map */}
+          <div className="rounded-2xl overflow-hidden shadow-sm border border-gray-100 h-[400px]">
+            <iframe
+              title="Mapa de ubicación de Murcia Energía Solar"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3144.351231644342!2d-1.1274151240296765!3d37.99234857193262!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd63816a73c09b25%3A0xe5ffbcbc06bc911b!2sMurcia%20Energ%C3%ADa%20Solar!5e0!3m2!1ses!2ses!4v1709214300000!5m2!1ses!2ses"
+              width="100%"
+              height="100%"
+              style={{ border: 0 }}
+              allowFullScreen={true}
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+
+          {/* Contact Info */}
+          <div className="flex flex-col gap-6">
+            <div className="bg-orange-50/50 p-6 rounded-2xl border border-orange-100">
+              <h3 className="text-xl font-bold mb-4" style={{ fontFamily: "Sora, sans-serif", color: "oklch(0.18 0.04 250)" }}>
+                Murcia Energía Solar
+              </h3>
+
+              <div className="flex flex-col gap-4">
+                <a
+                  href="https://www.google.com/maps?cid=16572537730388832027"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-start gap-3 group"
+                >
+                  <div className="w-10 h-10 rounded-lg flex items-center justify-center shrink-0 bg-white shadow-sm group-hover:bg-orange-100 transition-colors" style={{ color: "oklch(0.60 0.19 42)" }}>
+                    <MapPin className="w-5 h-5" />
+                  </div>
+                  <div>
+                    <div className="text-sm font-semibold mb-1" style={{ color: "oklch(0.18 0.04 250)", fontFamily: "Inter, sans-serif" }}>Dirección</div>
+                    <div className="text-sm text-gray-600 group-hover:text-orange-600 transition-colors" style={{ fontFamily: "Inter, sans-serif" }}>
+                      8 Av. San Pedro del Pinatar<br />30001 Murcia
+                    </div>
+                  </div>
+                </a>
+
+                <a
+                  href="tel:+34868353692"
+                  className="flex items-start gap-3 group"
+                >
+                  <div className="w-10 h-10 rounded-lg flex items-center justify-center shrink-0 bg-white shadow-sm group-hover:bg-orange-100 transition-colors" style={{ color: "oklch(0.60 0.19 42)" }}>
+                    <Phone className="w-5 h-5" />
+                  </div>
+                  <div>
+                    <div className="text-sm font-semibold mb-1" style={{ color: "oklch(0.18 0.04 250)", fontFamily: "Inter, sans-serif" }}>Teléfono</div>
+                    <div className="text-sm text-gray-600 group-hover:text-orange-600 transition-colors" style={{ fontFamily: "Inter, sans-serif" }}>
+                      868 35 36 92
+                    </div>
+                  </div>
+                </a>
+
+                <a
+                  href="mailto:info@murciaenergiasolar.es"
+                  className="flex items-start gap-3 group"
+                >
+                  <div className="w-10 h-10 rounded-lg flex items-center justify-center shrink-0 bg-white shadow-sm group-hover:bg-orange-100 transition-colors" style={{ color: "oklch(0.60 0.19 42)" }}>
+                    <Mail className="w-5 h-5" />
+                  </div>
+                  <div>
+                    <div className="text-sm font-semibold mb-1" style={{ color: "oklch(0.18 0.04 250)", fontFamily: "Inter, sans-serif" }}>Email</div>
+                    <div className="text-sm text-gray-600 group-hover:text-orange-600 transition-colors" style={{ fontFamily: "Inter, sans-serif" }}>
+                      info@murciaenergiasolar.es
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
 // ─── Final CTA ────────────────────────────────────────────────────────────────
 function FinalCTA() {
   return (
@@ -1658,6 +1754,7 @@ export default function Home() {
       <TestimonialsSection />
       <ZonesSection />
       <FAQSection />
+      <LocationSection />
       <FinalCTA />
       <Footer />
       <WhatsAppButton />
