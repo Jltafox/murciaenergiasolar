@@ -1338,7 +1338,7 @@ function LocationSection() {
             Visítanos en Murcia
           </h2>
           <p className="section-subtitle text-lg max-w-2xl mx-auto">
-            Nuestra oficina principal está en Murcia. Ven a conocernos o contáctanos para un presupuesto gratuito.
+            pide cita para conocernos
           </p>
         </div>
 
