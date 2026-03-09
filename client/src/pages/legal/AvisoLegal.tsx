@@ -26,7 +26,6 @@ export default function AvisoLegal() {
               <ul className="list-disc pl-5 space-y-2">
                 <li><strong>Denominación Social:</strong> Murcia Energía Solar</li>
                 <li><strong>Domicilio Social:</strong> 8 Av. San Pedro del Pinatar, 30001 Murcia</li>
-                <li><strong>CIF/NIF:</strong> B-XXXXXXXX</li>
                 <li><strong>Teléfono:</strong> 868 35 36 92</li>
                 <li><strong>Email:</strong> info@murciaenergiasolar.es</li>
               </ul>

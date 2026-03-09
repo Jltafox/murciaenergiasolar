@@ -179,8 +179,6 @@ export default function Footer() {
             © 2025 Murcia Energía Solar · Instaladores certificados IDAE · Región de Murcia
           </p>
           <div className="flex flex-wrap gap-x-4 gap-y-1 text-xs justify-center" style={{ color: "oklch(0.45 0.02 250)", ...body }}>
-            <span>CIF: B-XXXXXXXX</span>
-            <span>·</span>
             <span>8 Av. San Pedro del Pinatar, 30001 Murcia</span>
             <span>·</span>
             <a href="/aviso-legal/" className="hover:text-white transition-colors">Aviso Legal</a>
